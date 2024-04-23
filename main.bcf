@@ -2361,8 +2361,14 @@
     <bcf:datasource type="file" datatype="bibtex">bibliografia.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">Pytorch</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Torch</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Pytorch</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Torch</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">PyTorchMed</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">PyTorchOfficial</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">XNNPACK</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">QNNPACK</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">PyTorchOfficial</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">PyTorchOfficial</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -19,6 +19,33 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{XNNPACK}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ed84b6085046bdd016a6224a8de0961a}{%
+           family={Dukhan},
+           familyi={D\bibinitperiod},
+           given={Marat},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed84b6085046bdd016a6224a8de0961a}
+      \strng{fullhash}{ed84b6085046bdd016a6224a8de0961a}
+      \strng{bibnamehash}{ed84b6085046bdd016a6224a8de0961a}
+      \strng{authorbibnamehash}{ed84b6085046bdd016a6224a8de0961a}
+      \strng{authornamehash}{ed84b6085046bdd016a6224a8de0961a}
+      \strng{authorfullhash}{ed84b6085046bdd016a6224a8de0961a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Accelerating TensorFlow Lite with XNNPACK Integration}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://blog.tensorflow.org/2020/07/accelerating-tensorflow-lite-xnnpack-integration.html
+      \endverb
+      \verb{url}
+      \verb https://blog.tensorflow.org/2020/07/accelerating-tensorflow-lite-xnnpack-integration.html
+      \endverb
+    \endentry
     \entry{Pytorch}{online}{}
       \name{author}{1}{}{%
         {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -42,6 +69,74 @@
       \endverb
       \verb{url}
       \verb https://www.ibm.com/it-it/topics/pytorch
+      \endverb
+    \endentry
+    \entry{QNNPACK}{online}{}
+      \name{author}{1}{}{%
+        {{hash=eb78a1379fb65bcbe528a9bb97dce49e}{%
+           family={Marat\bibnamedelima Dukhan},
+           familyi={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Hao\bibnamedelima Lu},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           suffix={Yiming\bibnamedelima Wu},
+           suffixi={Y\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb78a1379fb65bcbe528a9bb97dce49e}
+      \strng{fullhash}{eb78a1379fb65bcbe528a9bb97dce49e}
+      \strng{bibnamehash}{eb78a1379fb65bcbe528a9bb97dce49e}
+      \strng{authorbibnamehash}{eb78a1379fb65bcbe528a9bb97dce49e}
+      \strng{authornamehash}{eb78a1379fb65bcbe528a9bb97dce49e}
+      \strng{authorfullhash}{eb78a1379fb65bcbe528a9bb97dce49e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{QNNPACK: Open source library for optimized mobile deep learning}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://engineering.fb.com/2018/10/29/ml-applications/qnnpack/
+      \endverb
+      \verb{url}
+      \verb https://engineering.fb.com/2018/10/29/ml-applications/qnnpack/
+      \endverb
+    \endentry
+    \entry{PyTorchMed}{online}{}
+      \name{author}{1}{}{%
+        {{hash=890dc061c816b073c7725862df4bab45}{%
+           family={Mudadla},
+           familyi={M\bibinitperiod},
+           given={Sujatha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{890dc061c816b073c7725862df4bab45}
+      \strng{fullhash}{890dc061c816b073c7725862df4bab45}
+      \strng{bibnamehash}{890dc061c816b073c7725862df4bab45}
+      \strng{authorbibnamehash}{890dc061c816b073c7725862df4bab45}
+      \strng{authornamehash}{890dc061c816b073c7725862df4bab45}
+      \strng{authorfullhash}{890dc061c816b073c7725862df4bab45}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PyTorch Mobile}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://medium.com/@sujathamudadla1213/pytorch-mobile-a5dc9cabe511
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@sujathamudadla1213/pytorch-mobile-a5dc9cabe511
+      \endverb
+    \endentry
+    \entry{PyTorchOfficial}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{PyTorch Mobile: End-to-end workflow from Training to Deployment for iOS and Android mobile devices}
+      \verb{urlraw}
+      \verb https://pytorch.org/mobile/home/
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/mobile/home/
       \endverb
     \endentry
     \entry{Torch}{online}{}

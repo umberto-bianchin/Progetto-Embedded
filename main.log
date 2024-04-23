@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  18 APR 2024 11:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  23 APR 2024 15:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -952,40 +952,61 @@ File: Immagini/logo_dei.png Graphic file (type bmp)
 
  [5] [6
 
-] (./Capitoli/pytorch.tex
+] (./Capitoli/nnapi.tex
 Capitolo 1.
-) (./Capitoli/tensorflow.tex [1
+) (./Capitoli/pytorch.tex [1
 
 ] [2
 
 ]
 Capitolo 2.
+
+Underfull \hbox (badness 3009) in paragraph at lines 19--20
+[]\TU/TimesNewRoman(0)/m/n/12 Fornisce API per comuni compiti di pre-processing e integrazione necessari ad
+ []
+
+[3]
+File: Immagini/workflow_pytorch.png Graphic file (type bmp)
+<Immagini/workflow_pytorch.png>
+) (./Capitoli/tensorflow.tex [4] [5] [6
+
+]
+Capitolo 3.
 File: Immagini/logo_dei.png Graphic file (type bmp)
 <Immagini/logo_dei.png>
-) [3] [4
+) (./Capitoli/confronto.tex [7] [8
 
-] (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+]
+Capitolo 4.
+) [9] [10
+
+]
+Underfull \hbox (badness 4353) in paragraph at lines 103--103
+[]\TU/TimesNewRoman(0)/m/n/12 Sujatha Mudadla. \TU/TimesNewRoman(0)/m/it/12 PyTorch Mobile\TU/TimesNewRoman(0)/m/n/12 . 2023. URL: []$[][][][][] [] [] [] [][][][][][] [] [][][] []
+ []
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) [5] (./main.aux)
+) [11] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E502BA8545DF67A1F4EAE30F347BCC59;529.
+(rerunfilecheck)             Checksum: B06C4D1EDC020301C6853AE14587596C;1957.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26774 strings out of 474779
- 533993 string characters out of 5758009
- 1924839 words of memory out of 5000000
- 48580 multiletter control sequences out of 15000+600000
- 562509 words of font info for 78 fonts, out of 8000000 for 9000
+ 26813 strings out of 474779
+ 535280 string characters out of 5758009
+ 1930839 words of memory out of 5000000
+ 48610 multiletter control sequences out of 15000+600000
+ 562525 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 74i,11n,81p,910b,32893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,11n,81p,910b,32896s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (11 pages).
+Output written on main.pdf (17 pages).
