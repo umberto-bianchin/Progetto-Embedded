@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  30 APR 2024 12:01
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  30 APR 2024 15:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -706,7 +706,204 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 \@hyxmp@count=\count482
  (/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen193
+\pgfutil@tempdimb=\dimen194
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box64
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen195
+\pgf@y=\dimen196
+\pgf@xa=\dimen197
+\pgf@ya=\dimen198
+\pgf@xb=\dimen199
+\pgf@yb=\dimen256
+\pgf@xc=\dimen257
+\pgf@yc=\dimen258
+\pgf@xd=\dimen259
+\pgf@yd=\dimen260
+\w@pgf@writea=\write6
+\r@pgf@reada=\read6
+\c@pgf@counta=\count483
+\c@pgf@countb=\count484
+\c@pgf@countc=\count485
+\c@pgf@countd=\count486
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count487
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count488
+))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count489
+\pgfsyssoftpath@bigbuffer@items=\count490
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen261
+\pgfmath@count=\count491
+\pgfmath@box=\box65
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count492
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count493
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen280
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen284
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen285
+\pgf@sys@shading@range@num=\count494
+\pgf@shadingcount=\count495
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box69
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box70
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count496
+\pgfplotmarksize=\dimen290
+)
+\tikz@lastx=\dimen291
+\tikz@lasty=\dimen292
+\tikz@lastxsaved=\dimen293
+\tikz@lastysaved=\dimen294
+\tikz@lastmovetox=\dimen295
+\tikz@lastmovetoy=\dimen296
+\tikzleveldistance=\dimen297
+\tikzsiblingdistance=\dimen298
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count497
+\tikznumberofchildren=\count498
+\tikznumberofcurrentchild=\count499
+\tikz@fig@count=\count500
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count501
+\pgfmatrixcurrentcolumn=\count502
+\pgf@matrix@numberofcolumns=\count503
+)
+\tikz@expandcount=\count504
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options [Ligatures=TeX].
@@ -727,22 +924,6 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: xetex.def on input line 274.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)
 runsystem(command -v pygmentize && touch main.aex)...executed.
 
 runsystem(rm main.aex)...executed.
@@ -754,30 +935,30 @@ Package csquotes Info: Redefining alias 'default' -> 'italian'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 69.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -786,21 +967,21 @@ LaTeX Font Info:    ... okay on input line 67.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24411pt
+* \textwidth=483.69687pt
 * \textheight=664.23584pt
-* \oddsidemargin=13.08827pt
+* \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-15.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=85.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=24.0pt
@@ -808,8 +989,8 @@ LaTeX Font Info:    ... okay on input line 67.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -832,68 +1013,68 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 67.
-Package biblatex Info: Reference segment=0 on input line 67.
+Package biblatex Info: Reference section=0 on input line 69.
+Package biblatex Info: Reference segment=0 on input line 69.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 67.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 67.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 67.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 67.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 67.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 67.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 67.
-LaTeX Font Info:    Redeclaring math accent \check on input line 67.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 67.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 67.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 67.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 67.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 69.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 69.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 69.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 69.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 69.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 69.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 69.
+LaTeX Font Info:    Redeclaring math accent \check on input line 69.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 69.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 69.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 69.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 69.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 67.
+(Font)              `operators' in the math version `normal' on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 67.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 69.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 67.
+(Font)              `operators' in the math version `bold' on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 67.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 67.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 67.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 67.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 67.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 67.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 67.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 67.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 67.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 67.
-Package hyperref Info: Link coloring OFF on input line 67.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 69.
+Package hyperref Info: Link coloring OFF on input line 69.
  (./main.out) (./main.out)
-\@outlinefile=\write6
-\openout6 = `main.out'.
+\@outlinefile=\write7
+\openout7 = `main.out'.
 
  (./Capitoli/frontespizio.tex
 *geometry* verbose mode - [ newgeometry ] result:
@@ -901,7 +1082,7 @@ Package hyperref Info: Link coloring OFF on input line 67.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
@@ -915,7 +1096,7 @@ Package hyperref Info: Link coloring OFF on input line 67.
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=85.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=24.0pt
@@ -923,8 +1104,8 @@ Package hyperref Info: Link coloring OFF on input line 67.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -935,106 +1116,138 @@ File: Immagini/logo_dei.png Graphic file (type bmp)
  [1
 
 
-]) [2
+]) (./main.toc)
+\tf@toc=\write8
+\openout8 = `main.toc'.
+
+ [1
 
 
-] (./main.toc)
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
- [3
-
-] [4
 
 ] (./main.lof)
-\tf@lof=\write8
-\openout8 = `main.lof'.
+\tf@lof=\write9
+\openout9 = `main.lof'.
 
- [5] [6
+ [2
 
 ] (./Capitoli/nnapi.tex
 Capitolo 1.
-) (./Capitoli/pytorch.tex [1
+[1
 
-] [2
 
 ]
+File: Immagini/nnapi_architecture.png Graphic file (type bmp)
+<Immagini/nnapi_architecture.png>
+ [2] [3]
+File: Immagini/nnapi_flow.png Graphic file (type bmp)
+<Immagini/nnapi_flow.png>
+ [4]) (./Capitoli/pytorch.tex [5]
 Capitolo 2.
+[6
 
-Underfull \hbox (badness 3009) in paragraph at lines 19--20
-[]\TU/TimesNewRoman(0)/m/n/12 Fornisce API per comuni compiti di pre-processing e integrazione necessari ad
- []
-
-[3]
+]
 File: Immagini/workflow_pytorch.png Graphic file (type bmp)
 <Immagini/workflow_pytorch.png>
- [4] [5]
+ [7] [8]
 File: Immagini/operator coverage.png Graphic file (type bmp)
 <Immagini/operator coverage.png>
- [6]
-Underfull \hbox (badness 2698) in paragraph at lines 105--110
-\TU/TimesNewRoman(0)/m/n/12 Grazie alla funzionalità \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile\TU/TimesNewRoman(0)/m/n/12 [[]9[]] si
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+\TU/TimesNewRoman(0)/m/n/12 Grazie alla funzionalità \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile\TU/TimesNewRoman(0)/m/n/12 [[]10[]] si
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 105--110
-\TU/TimesNewRoman(0)/m/n/12 semplifica il processo di ottimizzazione di modelli per garantire che funzionino in
+Underfull \hbox (badness 5345) in paragraph at lines 105--110
+\TU/TimesNewRoman(0)/m/n/12 semplifica il processo di ottimizzazione di modelli per garantire che funzionino in mo-
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 105--110
-\TU/TimesNewRoman(0)/m/n/12 modo efficiente su piattaforme con risorse limitate, come gli smartphone e i tablet.
+Underfull \hbox (badness 6364) in paragraph at lines 105--110
+\TU/TimesNewRoman(0)/m/n/12 do efficiente su piattaforme con risorse limitate, come gli smartphone e i tablet. Il
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 105--110
-\TU/TimesNewRoman(0)/m/n/12 Il comando \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile(script_module,
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+\TU/TimesNewRoman(0)/m/n/12 comando \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile(script_module,
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 105--110
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
 \TU/lmtt/m/n/12 optimization_blocklist=None, preserved_methods=None, backend='CPU') \TU/TimesNewRoman(0)/m/n/12 esegue
  []
 
-[7]) (./Capitoli/tensorflow.tex [8]
+
+Underfull \hbox (badness 4621) in paragraph at lines 112--113
+[]\TU/TimesNewRoman(0)/m/it/12 preserved_methods\TU/TimesNewRoman(0)/m/n/12 : lista di metodi che devono essere mantenuti quando si invoca
+ []
+
+[10]) (./Capitoli/tensorflow.tex [11]
 Capitolo 3.
 File: Immagini/logo_dei.png Graphic file (type bmp)
 <Immagini/logo_dei.png>
-) (./Capitoli/confronto.tex [9
-
-] [10
+[12
 
 ]
+Underfull \hbox (badness 1622) in paragraph at lines 33--34
+[]\TU/TimesNewRoman(0)/m/n/12 Supporto per più piattaforme, coprendo dispositivi Android e iOS, Linux embedded e
+ []
+
+[13] [14]
+File: Immagini/logo_dei.png Graphic file (type bmp)
+<Immagini/logo_dei.png>
+ [15]
+Underfull \hbox (badness 5119) in paragraph at lines 116--118
+[]\TU/TimesNewRoman(0)/m/n/12 L’API Python, in particolare usa la classe \TU/TimesNewRoman(0)/b/n/12 TF.lite.TFLiteConverter \TU/TimesNewRoman(0)/m/n/12 e il suo metodo
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 116--118
+\TU/lmtt/m/n/12 from_saved_model()\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 from_keras_model() \TU/TimesNewRoman(0)/m/n/12 e \TU/lmtt/m/n/12 from_concrete_functions() \TU/TimesNewRoman(0)/m/n/12 per convertire
+ []
+
+[16] [17] [18]
+Underfull \hbox (badness 2762) in paragraph at lines 212--214
+[]\TU/TimesNewRoman(0)/m/n/12 I delegati abilitano l’accelerazione hardware dei modelli TensorFlow Lite sfruttando gli
+ []
+
+File: Immagini/logo_dei.png Graphic file (type bmp)
+<Immagini/logo_dei.png>
+[19] [20]
+File: Immagini/logo_dei.png Graphic file (type bmp)
+<Immagini/logo_dei.png>
+ [21]) (./Capitoli/confronto.tex [22]
 Capitolo 4.
-) [11] [12
+) [23
 
 ]
-Underfull \hbox (badness 4353) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
 []\TU/TimesNewRoman(0)/m/n/12 Sujatha Mudadla. \TU/TimesNewRoman(0)/m/it/12 PyTorch Mobile\TU/TimesNewRoman(0)/m/n/12 . 2023. URL: []$[][][][][] [] [] [] [][][][][][] [] [][][] []
  []
 
-(/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+[24
+
+] (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) [13] (./main.aux)
+) [25] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1B9F23D56BBCCB067FE1F038294067ED;1729.
+(rerunfilecheck)             Checksum: C99AC3D695387DF7D71C8EA9B3A86E70;4292.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26836 strings out of 474779
- 536152 string characters out of 5758009
- 1935839 words of memory out of 5000000
- 48632 multiletter control sequences out of 15000+600000
+ 36850 strings out of 474779
+ 757003 string characters out of 5758009
+ 1936839 words of memory out of 5000000
+ 58438 multiletter control sequences out of 15000+600000
  562525 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 74i,12n,81p,910b,32896s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,910b,32893s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (19 pages).
+Output written on main.pdf (28 pages).

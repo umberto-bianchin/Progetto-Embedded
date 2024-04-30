@@ -2,9 +2,14 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Architettura di sistema per l'API Android Neural Networks. Fonte \blx@tocontentsinit {0}\cite {NNAPI}}}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Flusso di programmazione per l'API Android Neural Networks. Fonte \blx@tocontentsinit {0}\cite {NNAPI}}}{5}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Workflow dal training al rilascio di un modello su piattaforma mobile. Fonte \blx@tocontentsinit {0}\cite {PyTorchOfficial}}}{5}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Operatori compatibili con i due diversi tipi di quantizzazione}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Workflow dal training al rilascio di un modello su piattaforma mobile. Fonte \blx@tocontentsinit {0}\cite {PyTorchOfficial}}}{8}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Operatori compatibili con i due diversi tipi di quantizzazione}}{10}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramma dei punteggi di utilizzo di vari framework nel 2018}}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramma dei punteggi di utilizzo di vari framework nel 2018}}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow di conversione di TensorFlow Lite}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Distinzione tra kernel CPU e i delegati. Fonte}}{20}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schema riassuntivo del funzionamento del servizio di accelerazione}}{21}{figure.caption.14}%
 \addvspace {10\p@ }

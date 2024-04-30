@@ -4,14 +4,14 @@
 % openright: i capitoli cominciano in pagine dispari ("a destra")
 % extreport: supporta 12pt
 
-\documentclass[12pt,a4paper,twoside,openright]{extreport}
+\documentclass[12pt,a4paper,openright]{extreport}
 
 \usepackage{amsmath}                            % per avere più controllo sulle equazioni 
 \usepackage{enumitem}                           % per avere più controllo sulle enumerazioni
 \usepackage[
     a4paper,
     top=2cm,bottom=2cm,
-    outer=2cm,inner=3cm,
+    right=2cm,left=2cm,
     includeheadfoot
 ]{geometry}                                     % margini richiesti dall'università
 \usepackage{graphicx}                           % per le immagini
@@ -28,6 +28,7 @@
 \usepackage[pdfa]{hyperref}
 \usepackage{hyperxmp}
 \usepackage{caption}
+\usepackage{tikz}
 
 
 \sloppy % per evitare che il testo in \verb finisca oltre i margini
@@ -52,10 +53,11 @@
 \newenvironment{code}{\captionsetup{type=listing}}{}  % Setto l'ambiente per l'inserimento dei codici
 \SetupFloatingEnvironment{listing}{name=Codice}
 
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
+
 
 % questi valori vengono usati nella composizione del frontespizio
 \title{Progetto Programmazione di Sistemi Embedded: Mobile AI}
-\author{Alessandro Girlanda, Andrea Mutti, Umberto Bianchin}
 
 \hypersetup{%
   pdftitle={Progetto Programmazione di Sistemi Embedded: Mobile AI}
@@ -83,8 +85,8 @@
 
     \fancypagestyle{plain}{                       %setto l'intestazione della pagina
     \fancyhf{} 
-    \fancyhead[RO, LE]{\thepage}
-    \fancyhead[LO, RE]{\nouppercase{\leftmark}}
+    \fancyhead[R]{\thepage}
+    \fancyhead[L]{\nouppercase{\leftmark}}
     \renewcommand{\headrulewidth}{0.4pt}
     }
     \setlength{\headheight}{14.5pt}

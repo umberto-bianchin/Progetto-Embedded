@@ -45,6 +45,32 @@
       \verb https://paulbridger.com/posts/mastering-torchscript/
       \endverb
     \endentry
+    \entry{NNAPI}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d242a862c3becd11c3eab68c129ae4a8}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={Android},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{fullhash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{bibnamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authorbibnamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authornamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authorfullhash}{d242a862c3becd11c3eab68c129ae4a8}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{API Neural Networks}
+      \verb{urlraw}
+      \verb https://developer.android.com/ndk/guides/neuralnetworks?hl=it
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/ndk/guides/neuralnetworks?hl=it
+      \endverb
+    \endentry
     \entry{XNNPACK}{online}{}
       \name{author}{1}{}{%
         {{hash=ed84b6085046bdd016a6224a8de0961a}{%
