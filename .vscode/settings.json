@@ -1,14 +1,22 @@
 {
     "cSpell.words": [
+        "Conv",
         "convoluzionali",
+        "convoluzione",
+        "convoluzioni",
+        "dequantizzazione",
         "extreport",
         "Girlanda",
+        "Hardtanh",
         "Mutti",
         "openright",
         "pdfaconformance",
         "pdfapart",
         "pdfauthor",
         "QNNPACK",
+        "Quantizer",
+        "relu",
+        "Vulkan",
         "XNNPACK"
     ]
 }

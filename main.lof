@@ -4,6 +4,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Workflow dal training al rilascio di un modello su piattaforma mobile. Fonte \blx@tocontentsinit {0}\cite {PyTorchOfficial}}}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Operatori compatibili con i due diversi tipi di quantizzazione}}{7}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramma dei punteggi di utilizzo di vari framework nel 2018}}{7}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramma dei punteggi di utilizzo di vari framework nel 2018}}{9}{figure.caption.9}%
 \addvspace {10\p@ }

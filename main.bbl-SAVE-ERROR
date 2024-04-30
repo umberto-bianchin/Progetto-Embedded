@@ -19,32 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{TracingVSScripting}{online}{}
-      \name{author}{1}{}{%
-        {{hash=088d9b211c166d8b3a811d083442416a}{%
-           family={Bridger},
-           familyi={B\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{088d9b211c166d8b3a811d083442416a}
-      \strng{fullhash}{088d9b211c166d8b3a811d083442416a}
-      \strng{bibnamehash}{088d9b211c166d8b3a811d083442416a}
-      \strng{authorbibnamehash}{088d9b211c166d8b3a811d083442416a}
-      \strng{authornamehash}{088d9b211c166d8b3a811d083442416a}
-      \strng{authorfullhash}{088d9b211c166d8b3a811d083442416a}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mastering TorchScript: Tracing vs Scripting, Device Pinning, Direct Graph Modification}
-      \verb{urlraw}
-      \verb https://paulbridger.com/posts/mastering-torchscript/
-      \endverb
-      \verb{url}
-      \verb https://paulbridger.com/posts/mastering-torchscript/
-      \endverb
-    \endentry
     \entry{XNNPACK}{online}{}
       \name{author}{1}{}{%
         {{hash=ed84b6085046bdd016a6224a8de0961a}{%
@@ -188,18 +162,6 @@
       \endverb
       \verb{url}
       \verb https://en.wikipedia.org/wiki/Torch_(machine_learning)
-      \endverb
-    \endentry
-    \entry{Ottimizzazione}{online}{}
-      \field{sortinit}{t}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labeltitlesource}{title}
-      \field{title}{torch.utils.mobile\_optimizer}
-      \verb{urlraw}
-      \verb https://pytorch.org/docs/stable/mobile\_optimizer.html
-      \endverb
-      \verb{url}
-      \verb https://pytorch.org/docs/stable/mobile%5C_optimizer.html
       \endverb
     \endentry
   \enddatalist

@@ -2369,6 +2369,9 @@
     <bcf:citekey order="7" intorder="1">QNNPACK</bcf:citekey>
     <bcf:citekey order="8" intorder="1">PyTorchOfficial</bcf:citekey>
     <bcf:citekey order="9" intorder="1">PyTorchOfficial</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Quantizzazione</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">TracingVSScripting</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Ottimizzazione</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
