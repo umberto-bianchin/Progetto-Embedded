@@ -14,17 +14,19 @@
 \contentsline {subsubsection}{PyTorch 2 Export Quantization}{9}{section*.9}%
 \contentsline {subsection}{\numberline {2.3.2}Scripting e Tracing del modello}{9}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Ottimizzazione}{10}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}TensorFlow}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduzione}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}TensorFlow Lite}{13}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Workflow di sviluppo}{14}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Generazione di un modello TensorFlow Lite}{14}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Ottimizzazione del modello}{16}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Eseguire l'inferenza}{17}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Task libraries di TensorFlow Lite}{18}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Support libraries di TensorFlow Lite}{19}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Miglioramento delle prestazioni: i delegati}{19}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Scelta di un delegato}{20}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Tools per la valutazione}{21}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {4}PyTorch Mobile vs TensorFlow Lite}{23}{chapter.4}%
-\contentsline {chapter}{Bibliografia}{24}{chapter*.15}%
+\contentsline {section}{\numberline {2.4}PyTorch Backend}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.5}PyTorch Mobile per Android}{12}{section.2.5}%
+\contentsline {chapter}{\numberline {3}TensorFlow}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduzione}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}TensorFlow Lite}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Workflow di sviluppo}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Generazione di un modello TensorFlow Lite}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Ottimizzazione del modello}{17}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Eseguire l'inferenza}{18}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Task libraries di TensorFlow Lite}{19}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Support libraries di TensorFlow Lite}{20}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Miglioramento delle prestazioni: i delegati}{20}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Scelta di un delegato}{21}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Tools per la valutazione}{22}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}PyTorch Mobile vs TensorFlow Lite}{24}{chapter.4}%
+\contentsline {chapter}{Bibliografia}{25}{chapter*.16}%

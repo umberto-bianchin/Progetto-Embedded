@@ -1,0 +1,56 @@
+\bchapter{TensorFlow}
+\section{Introduzione}
+TensorFlow è una libreria open source per l'apprendimento automatico, il calcolo numerico e altre attività di analisi statistica e predittiva. Questo
+tipo di tecnologia, sviluppata e rilasciata da Google nel novembre 2015, rende l’implementazione di modelli di machine learning più semplice e veloce per
+gli sviluppatori, assistendo nel processo di acquisizione dei dati, nella formulazione di previsioni su larga scala e nel successivo affinamento dei risultati.
+Lo scopo principale di TensorFlow è la creazione e l’addestramento di reti neurali, che possono essere utilizzate per moltissime applicazioni, quali:
+\begin{itemize}
+    \item Classificazione delle immagini;
+    \item Elaborazione del linguaggio naturale;
+    \item Analisi delle serie temporali;
+    \item Riconoscimento vocale;
+    \item Sviluppo di soluzioni di visione artificiale;
+    \item Ottimizzazione di chatbot;
+    \item Sistemi di assistenza clienti automatizzati;
+    \item Altri ancora.
+\end{itemize}
+
+La versatilità e il grande range di applicazioni rendono TensorFlow uno strumento veramente potente e, per questo, è il \textbf{motore di AI più utilizzato},
+come si può osservare in figura \ref{fig:diagramma}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{Immagini/logo_dei.png}
+    \caption{Diagramma dei punteggi di utilizzo di vari framework nel 2018}
+    \label{fig:diagramma}
+\end{figure}
+
+\section{TensorFlow Lite}
+TensorFlow si può dire essere il “genitore” di TensorFlow Lite, introdotto da Google nel 2017, che non è altro che una versione ottimizzata per l’uso su
+dispositivi embedded e mobili. TensorFlow Lite è un framework di deep learning open-source, che converte un modello TensorFlow pre-addestrato in un formato
+specifico, che può essere ottimizzato per la velocità e l’archiviazione. Le sue caratteristiche principali sono:
+\begin{itemize}
+    \item Supporto per più piattaforme, coprendo dispositivi Android e iOS, Linux embedded e microcontrollori;
+    \item Supporto per diversi linguaggi di programmazione, come Java, Swift, Objective-C, C++ e Python;
+    \item Alte prestazioni, facendo ricorso all’accelerazione hardware e all’ottimizzazione del modello;
+    \item Ottimizzato per l’apprendimento automatico sul dispositivo, affrontando 5 vincoli chiave:
+ \begin{itemize}
+        \item Latenza: TensorFlow Lite riesce ad eliminare il ritardo tra l’invio dei dati al server e il ricevimento della risposta. Infatti, il
+        framework non necessita di inviare dati ad un server esterno (visto che l’apprendimento e l’elaborazione dei dati avvengono direttamente sul
+        dispositivo) e, quindi, il tempo di predizione viene ridotto notevolmente;
+        \item Privacy: E’ garantita la riservatezza massima nell’elaborazione di dati sensibili o personali che, infatti, non vengono mai condivisi con
+        server remoti. Questo è possibile perché i dati non lasciano mai il dispositivo dell’utente, assicurando la privacy massima;
+        \item Connettività: TensorFlow lite non necessita di una connessione internet permettendo lo svolgimento di attività di apprendimento e inferenza
+        anche in situazioni in cui non è possibile o pratico avere una connessione stabile;
+        \item Dimensioni del modello: I dispositivi mobili o embedded dispongono, generalmente, di risorse minori rispetto ai computer. La riduzione dello
+        spazio di archiviazione e della necessità di risorse computazionali per un modello TensorFlow diventa, dunque, essenziale per l’esecuzione di
+        algoritmi di Machine Learning sul dispositivo;
+        \item Consumo energetico: L’elaborazione dei dati e l’inferenza di un modello di Machine Learning possono incidere pesantemente sulla durata della
+        batteria di un dispositivo mobile. TensorFlow Lite, infatti, si occupa di gestire efficientemente il consumo di energia. Inoltre, l’eliminazione
+        della necessità di trasmettere dati riduce ulteriormente il consumo energetico.
+    \end{itemize}
+\end{itemize}
+
+\input{Capitoli/TensorFlow/workflow.tex}
+
+\input{Capitoli/TensorFlow/delegati.tex}

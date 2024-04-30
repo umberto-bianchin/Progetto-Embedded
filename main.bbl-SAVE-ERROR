@@ -19,6 +19,58 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{TracingVSScripting}{online}{}
+      \name{author}{1}{}{%
+        {{hash=088d9b211c166d8b3a811d083442416a}{%
+           family={Bridger},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{088d9b211c166d8b3a811d083442416a}
+      \strng{fullhash}{088d9b211c166d8b3a811d083442416a}
+      \strng{bibnamehash}{088d9b211c166d8b3a811d083442416a}
+      \strng{authorbibnamehash}{088d9b211c166d8b3a811d083442416a}
+      \strng{authornamehash}{088d9b211c166d8b3a811d083442416a}
+      \strng{authorfullhash}{088d9b211c166d8b3a811d083442416a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mastering TorchScript: Tracing vs Scripting, Device Pinning, Direct Graph Modification}
+      \verb{urlraw}
+      \verb https://paulbridger.com/posts/mastering-torchscript/
+      \endverb
+      \verb{url}
+      \verb https://paulbridger.com/posts/mastering-torchscript/
+      \endverb
+    \endentry
+    \entry{NNAPI}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d242a862c3becd11c3eab68c129ae4a8}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={Android},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{fullhash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{bibnamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authorbibnamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authornamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authorfullhash}{d242a862c3becd11c3eab68c129ae4a8}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{API Neural Networks}
+      \verb{urlraw}
+      \verb https://developer.android.com/ndk/guides/neuralnetworks?hl=it
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/ndk/guides/neuralnetworks?hl=it
+      \endverb
+    \endentry
     \entry{XNNPACK}{online}{}
       \name{author}{1}{}{%
         {{hash=ed84b6085046bdd016a6224a8de0961a}{%
@@ -69,6 +121,18 @@
       \endverb
       \verb{url}
       \verb https://www.ibm.com/it-it/topics/pytorch
+      \endverb
+    \endentry
+    \entry{Metal}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{title}{Introducing Accelerated PyTorch Training on Mac}
+      \verb{urlraw}
+      \verb https://pytorch.org/blog/introducing-accelerated-pytorch-training-on-mac/
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/blog/introducing-accelerated-pytorch-training-on-mac/
       \endverb
     \endentry
     \entry{QNNPACK}{online}{}
@@ -139,6 +203,18 @@
       \verb https://pytorch.org/mobile/home/
       \endverb
     \endentry
+    \entry{Vulkan}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{PyTorch Vulkan Backend User Workflow}
+      \verb{urlraw}
+      \verb https://pytorch.org/tutorials/prototype/vulkan_workflow.html
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/tutorials/prototype/vulkan_workflow.html
+      \endverb
+    \endentry
     \entry{Quantizzazione}{online}{}
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
@@ -162,6 +238,18 @@
       \endverb
       \verb{url}
       \verb https://en.wikipedia.org/wiki/Torch_(machine_learning)
+      \endverb
+    \endentry
+    \entry{Ottimizzazione}{online}{}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{torch.utils.mobile\_optimizer}
+      \verb{urlraw}
+      \verb https://pytorch.org/docs/stable/mobile\_optimizer.html
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/docs/stable/mobile%5C_optimizer.html
       \endverb
     \endentry
   \enddatalist

@@ -123,6 +123,18 @@
       \verb https://www.ibm.com/it-it/topics/pytorch
       \endverb
     \endentry
+    \entry{Metal}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{title}{Introducing Accelerated PyTorch Training on Mac}
+      \verb{urlraw}
+      \verb https://pytorch.org/blog/introducing-accelerated-pytorch-training-on-mac/
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/blog/introducing-accelerated-pytorch-training-on-mac/
+      \endverb
+    \endentry
     \entry{QNNPACK}{online}{}
       \name{author}{1}{}{%
         {{hash=eb78a1379fb65bcbe528a9bb97dce49e}{%
@@ -189,6 +201,18 @@
       \endverb
       \verb{url}
       \verb https://pytorch.org/mobile/home/
+      \endverb
+    \endentry
+    \entry{Vulkan}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{PyTorch Vulkan Backend User Workflow}
+      \verb{urlraw}
+      \verb https://pytorch.org/tutorials/prototype/vulkan_workflow.html
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/tutorials/prototype/vulkan_workflow.html
       \endverb
     \endentry
     \entry{Quantizzazione}{online}{}
