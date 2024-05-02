@@ -1,9 +1,9 @@
 \bchapter{TensorFlow}
 \section{Introduzione}
-TensorFlow\cite{tensorflow} è una libreria open source per l'apprendimento automatico, il calcolo numerico e altre attività di analisi statistica e predittiva. Questo
+TensorFlow\cite{databricks} è una libreria open source per l'apprendimento automatico, il calcolo numerico e altre attività di analisi statistica e predittiva. Questo
 tipo di tecnologia, sviluppata e rilasciata da Google nel novembre 2015, rende l’implementazione di modelli di machine learning più semplice e veloce per
-gli sviluppatori, assistendo nel processo di acquisizione dei dati, nella formulazione di previsioni su larga scala e nel successivo affinamento dei risultati.
-Lo scopo principale di TensorFlow è la creazione e l’addestramento di reti neurali, che possono essere utilizzate per moltissime applicazioni, quali:
+gli sviluppatori, assistendoli nel processo di acquisizione dei dati, nella formulazione di previsioni su larga scala e nel successivo affinamento dei risultati.
+Lo scopo principale di TensorFlow è la creazione e l’addestramento di reti neurali, che possono essere utilizzate per moltissime applicazioni\cite{egovaleo}, quali:
 \begin{itemize}
     \item Classificazione delle immagini;
     \item Elaborazione del linguaggio naturale;
@@ -26,7 +26,7 @@ come si può osservare in figura \ref{fig:diagramma}.
 \end{figure}
 
 \section{TensorFlow Lite}
-TensorFlow si può dire essere il “genitore” di TensorFlow Lite, introdotto da Google nel 2017, che non è altro che una versione ottimizzata per l’uso su
+TensorFlow si può dire essere il “genitore” di TensorFlow Lite\cite{tensorflow}, introdotto da Google nel 2017, che non è altro che una versione ottimizzata per l’uso su
 dispositivi embedded e mobili. TensorFlow Lite è un framework di deep learning open-source, che converte un modello TensorFlow pre-addestrato in un formato
 specifico, che può essere ottimizzato per la velocità e l’archiviazione. Le sue caratteristiche principali sono:
 \begin{itemize}
@@ -38,16 +38,16 @@ specifico, che può essere ottimizzato per la velocità e l’archiviazione. Le 
         \item Latenza: TensorFlow Lite riesce ad eliminare il ritardo tra l’invio dei dati al server e il ricevimento della risposta. Infatti, il
         framework non necessita di inviare dati ad un server esterno (visto che l’apprendimento e l’elaborazione dei dati avvengono direttamente sul
         dispositivo) e, quindi, il tempo di predizione viene ridotto notevolmente;
-        \item Privacy: E’ garantita la riservatezza massima nell’elaborazione di dati sensibili o personali che, infatti, non vengono mai condivisi con
-        server remoti. Questo è possibile perché i dati non lasciano mai il dispositivo dell’utente, assicurando la privacy massima;
+        \item Privacy: è garantita la riservatezza massima nell’elaborazione di dati sensibili o personali che, infatti, non vengono mai condivisi con
+        server remoti. Questo è possibile perché i dati non lasciano mai il dispositivo dell’utente, assicurando la massima privacy;
         \item Connettività: TensorFlow lite non necessita di una connessione internet permettendo lo svolgimento di attività di apprendimento e inferenza
         anche in situazioni in cui non è possibile o pratico avere una connessione stabile;
-        \item Dimensioni del modello: I dispositivi mobili o embedded dispongono, generalmente, di risorse minori rispetto ai computer. La riduzione dello
+        \item Dimensioni del modello: i dispositivi mobili o embedded dispongono, generalmente, di risorse minori rispetto ai computer. La riduzione dello
         spazio di archiviazione e della necessità di risorse computazionali per un modello TensorFlow diventa, dunque, essenziale per l’esecuzione di
         algoritmi di Machine Learning sul dispositivo;
-        \item Consumo energetico: L’elaborazione dei dati e l’inferenza di un modello di Machine Learning possono incidere pesantemente sulla durata della
+        \item Consumo energetico: l’elaborazione dei dati e l’inferenza di un modello di Machine Learning possono incidere pesantemente sulla durata della
         batteria di un dispositivo mobile. TensorFlow Lite, infatti, si occupa di gestire efficientemente il consumo di energia. Inoltre, l’eliminazione
-        della necessità di trasmettere dati riduce ulteriormente il consumo energetico\nocite{*}.
+        della necessità di trasmettere dati riduce ulteriormente il consumo energetico.
     \end{itemize}
 \end{itemize}
 

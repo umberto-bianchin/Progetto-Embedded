@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  2 MAY 2024 13:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  2 MAY 2024 17:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1170,7 +1170,7 @@ File: Immagini/operator coverage.png Graphic file (type bmp)
 <Immagini/operator coverage.png>
  [13]
 Underfull \hbox (badness 10000) in paragraph at lines 77--82
-\TU/TimesNewRoman(0)/m/n/12 Grazie alla funzionalità \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile\TU/TimesNewRoman(0)/m/n/12 [[]19[]] si
+\TU/TimesNewRoman(0)/m/n/12 Grazie alla funzionalità \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile\TU/TimesNewRoman(0)/m/n/12 [[]18[]] si
  []
 
 
@@ -1215,22 +1215,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 33--34
 [18] (./Capitoli/TensorFlow/workflow.tex [19]
 File: Immagini/workflow.png Graphic file (type bmp)
 <Immagini/workflow.png>
- [20]
-Underfull \hbox (badness 5119) in paragraph at lines 62--64
-[]\TU/TimesNewRoman(0)/m/n/12 L’API Python, in particolare usa la classe \TU/TimesNewRoman(0)/b/n/12 TF.lite.TFLiteConverter \TU/TimesNewRoman(0)/m/n/12 e il suo metodo
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 62--64
-\TU/lmtt/m/n/12 from_saved_model()\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 from_keras_model() \TU/TimesNewRoman(0)/m/n/12 e \TU/lmtt/m/n/12 from_concrete_functions() \TU/TimesNewRoman(0)/m/n/12 per convertire
- []
-
-[21] [22] [23]) (./Capitoli/TensorFlow/delegati.tex
-Underfull \hbox (badness 2762) in paragraph at lines 6--8
-[]\TU/TimesNewRoman(0)/m/n/12 I delegati abilitano l’accelerazione hardware dei modelli TensorFlow Lite sfruttando gli
- []
-
-[24]
+ [20] [21] [22] [23]) (./Capitoli/TensorFlow/delegati.tex [24]
 File: Immagini/delegate_runtime.png Graphic file (type bmp)
 <Immagini/delegate_runtime.png>
  [25]
@@ -1262,17 +1247,26 @@ File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9097EBD0D0DB9F2569B9BA8E31E69DCD;6977.
+(rerunfilecheck)             Checksum: C7B196D6428ACF7F63B8C6B1218265F2;6998.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36997 strings out of 474779
- 761573 string characters out of 5758009
- 1940839 words of memory out of 5000000
- 58558 multiletter control sequences out of 15000+600000
+ 36991 strings out of 474779
+ 761328 string characters out of 5758009
+ 1939839 words of memory out of 5000000
+ 58552 multiletter control sequences out of 15000+600000
  562525 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,11n,93p,910b,32892s stack positions out of 10000i,1000n,20000p,200000b,200000s

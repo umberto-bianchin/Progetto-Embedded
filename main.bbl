@@ -147,31 +147,6 @@
       \verb https://pytorch.org/blog/introducing-accelerated-pytorch-training-on-mac/
       \endverb
     \endentry
-    \entry{geek}{online}{}
-      \name{author}{1}{}{%
-        {{hash=f98ed07a4d5f50f7de1410d905f1477f}{%
-           family={io},
-           familyi={i\bibinitperiod}}}%
-      }
-      \strng{namehash}{f98ed07a4d5f50f7de1410d905f1477f}
-      \strng{fullhash}{f98ed07a4d5f50f7de1410d905f1477f}
-      \strng{bibnamehash}{f98ed07a4d5f50f7de1410d905f1477f}
-      \strng{authorbibnamehash}{f98ed07a4d5f50f7de1410d905f1477f}
-      \strng{authornamehash}{f98ed07a4d5f50f7de1410d905f1477f}
-      \strng{authorfullhash}{f98ed07a4d5f50f7de1410d905f1477f}
-      \field{sortinit}{i}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{TensorFlow}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.geekandjob.com/wiki/tensorflow
-      \endverb
-      \verb{url}
-      \verb https://www.geekandjob.com/wiki/tensorflow
-      \endverb
-    \endentry
     \entry{QNNPACK}{online}{}
       \name{author}{1}{}{%
         {{hash=eb78a1379fb65bcbe528a9bb97dce49e}{%
@@ -275,7 +250,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Tensorflow Guida Italiano: primi passi con Tensorflow}
       \field{year}{2020}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.andreaprovino.it/tensorflow-guida-italiano-primi-passi-con-tensorflow
       \endverb
@@ -351,7 +325,6 @@
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labeltitlesource}{title}
       \field{title}{TensorFlow}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.databricks.com/it/glossary/tensorflow-guide
       \endverb
@@ -364,7 +337,6 @@
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labeltitlesource}{title}
       \field{title}{TensorFlow: cos’è e a cosa serve}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.egovaleo.it/geek-lab/tensorflow-cose-e-a-cosa-serve/
       \endverb
@@ -395,20 +367,6 @@
       \endverb
       \verb{url}
       \verb https://pytorch.org/docs/stable/mobile%5C_optimizer.html
-      \endverb
-    \endentry
-    \entry{PyTorchMobile}{online}{}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labeltitlesource}{title}
-      \field{title}{What is PyTorch Mobile?}
-      \field{year}{2022}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://analyticsindiamag.com/what-is-pytorch-mobile/
-      \endverb
-      \verb{url}
-      \verb https://analyticsindiamag.com/what-is-pytorch-mobile/
       \endverb
     \endentry
   \enddatalist

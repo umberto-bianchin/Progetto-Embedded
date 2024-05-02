@@ -1,19 +1,18 @@
 \bchapter{PyTorch Mobile vs TensorFlow Lite}
-Abbiamo singolarmente analizzato ognuno dei due framework, ma quale scegliamo per l’implementazione di modelli di machine learning su dispositivi mobili?
-Ci limiteremo a confrontare i due framework sulle caratteristiche più importanti per lo sviluppo di un modello:
+Sono stati singolarmente analizzati entrambi i framework, ma quale bisogna scegliere per l’implementazione di modelli di machine learning su dispositivi mobili?
+Ci si limiterà a confrontare i due framework sulle caratteristiche più importanti per lo sviluppo di un modello:
 \begin{itemize}
-    \item Facilità di implementazione: Un punto critico per ogni sviluppatore è quello di poter implementare facilmente un progetto e iniziare ad usarlo fin da subito senza troppe configurazioni e setup iniziali.
+    \item Facilità di implementazione: un punto critico per ogni sviluppatore è quello di poter implementare facilmente un progetto e iniziare ad usarlo fin da subito senza troppe configurazioni e setup iniziali.
     In questo contesto, TensorFlow Lite offre un set vastissimo di APIs\cite{tensorvspyt} che permettono di semplificare il processo di implementazione in modo significativo. Tendenzialmente, TensorFlow Lite richiede solo 2 ore per
-    implementare un semplice prototipo. E’ possibile implementare le stesse funzionalità anche con PyTorch Mobile ma non si dispone di tutte queste API che facilitano e velocizzano il processo.
+    implementare un semplice prototipo. È possibile implementare le stesse funzionalità anche con PyTorch Mobile ma non si dispone di tutte queste API che facilitano e velocizzano il processo.
     \item Manipolazione low-level del modello: al contrario di TensorFlow Lite, PyTorch è rinomato per la sua flessibilità nella manipolazione del modello\cite{pytorchvstensor}, offrendo la possibilità di personalizzare il modello fino ai minimi dettagli.
-    \item Velocità di inferenza: Una piacevole esperienza di utilizzo e creazione di un modello machine learning dipende molto anche dalla velocità con cui riesco a testarlo e praticarlo. In questo contesto, TensorFlow Lite riesce a
+    \item Velocità di inferenza: una piacevole esperienza di utilizzo e creazione di un modello machine learning dipende molto anche dalla velocità con cui si riesce a testarlo e praticarlo. In questo contesto, TensorFlow Lite riesce a
     garantire un tempo di inferenza 3 volte più piccolo di quello di PyTorch Mobile grazie al supporto della GPU e dei suoi delegati (NNAPI).
-    \item Dimensione: Un’importante metrica da considerare nell’ambito della progettazione di modelli su dispositivi mobili è la dimensione del modello stesso. La capacità di memoria su questi dispositivi è minima e, per questo, abbiamo
+    \item Dimensione: un’importante metrica da considerare nell’ambito della progettazione di modelli su dispositivi mobili è la dimensione del modello stesso. La capacità di memoria su questi dispositivi è minima e, per questo, c'è
     bisogno di un modello il più leggero possibile. Anche su questo fronte, TensorFlow Lite riesce a comprimere maggiormente la dimensione del modello garantendo un occupazione minima di memoria.
-    \item Community e supporto: Al fine di un uso più pacifico e sereno di un framework, avere una community fidata e del supporto ufficiale diventa essenziale. Sapere che c’è un team dedicato per segnalazioni di bug,
-    richieste di features e per un contributo attivo alla libreria è un fattore chiave. In questo contesto, TensorFlow Lite e PyTorch Mobile presentano entrambi un community attiva e una documentazione egualmente buona.
+    \item Community e supporto: al fine di un uso più pacifico e sereno di un framework, avere una community fidata e del supporto ufficiale diventa essenziale. Sapere che c’è un team dedicato per segnalazioni di bug,
+    richieste di nuove features e per un contributo attivo alla libreria è un fattore chiave. In questo contesto, TensorFlow Lite e PyTorch Mobile presentano entrambi una community attiva e una documentazione egualmente buona.
     Inoltre, sono entrambi open source.
 \end{itemize}
-
 In conclusione, TensorFlow Lite è la scelta migliore: maturità, supporto della GPU, dimensione delle librerie e del modello e larga gamma di API sono degli ottimi motivi per questa decisione.
 PyTorch Mobile resta comunque un’opzione plausibile, soprattutto nei casi in cui è richiesta una personalizzazione profonda del modello e una flessibilità di controllo notevole.

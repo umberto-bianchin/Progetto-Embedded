@@ -2,12 +2,12 @@
 TensorFlow Lite, insieme a TensorFlow, offre tutti gli strumenti per la generazione e l’utilizzo di un modello di Machine Learning. Il workflow di
 sviluppo è il seguente:
 \begin{itemize}
-    \item Generazione di un modello TensorFlow Lite: A questo scopo, si può decidere se utilizzare un modello di TensorFlow Lite esistente, creare un
-    modello TensorFlow Lite da zero o convertire un modello TensorFlow in un modello TensorFlow Lite. In questo report, analizzeremo l’ultima delle 3
+    \item Generazione di un modello TensorFlow Lite: a questo scopo, si può decidere se utilizzare un modello di TensorFlow Lite esistente, creare un
+    modello TensorFlow Lite da zero o convertire un modello TensorFlow in un modello TensorFlow Lite. In questo report, si analizzerà l’ultima delle 3
     opzioni poiché coerente con il progetto;
-    \item Inferenza: Il processo di esecuzione di un modello TensorFlow Lite sul dispositivo per effettuare previsioni basate sui dati di input prende
+    \item Inferenza: il processo di esecuzione di un modello TensorFlow Lite sul dispositivo per effettuare previsioni basate sui dati di input prende
     nome di inferenza;
-    \item Analisi e miglioramento delle prestazioni: tramite dei delegati, utilizzare l’accelerazione hardware in modo che il modello incontri requisiti
+    \item Analisi e miglioramento delle prestazioni: tramite dei delegati, si utilizza l’accelerazione hardware in modo che il modello incontri requisiti
     di efficienza elevati.
 \end{itemize}
 
@@ -27,7 +27,7 @@ Come è stato anticipato, i principali metodi di generazione di un modello Tenso
     \item Conversione di modello TensorFlow in un modello TensorFlow Lite utilizzando il convertitore TensorFlow Lite.
 \end{enumerate}
 
-Noi ci concentreremo su quest’ultima opzione, in quanto è interessante studiare i meccanismi con cui viene trasformato un modello TensorFlow
+Ci si concentrerà su quest’ultima opzione, in quanto è interessante studiare i meccanismi con cui viene trasformato un modello TensorFlow
 (adatto per dispositivi di vario genere e potenza) in un modello TensorFlow Lite (usato per dispositivi mobili e, quindi, molto più limitati in termini
 di memoria e risorse di calcolo).
 
@@ -36,6 +36,17 @@ Come primo passaggio di tale processo, infatti, è necessario valutare il modell
 Questa valutazione determina se il contenuto del modello è supportato dagli ambienti di runtime TensorFlow Lite standard in base alle operazioni
 TensorFlow che utilizza. Se il modello utilizza operazioni non presenti nel set supportato, vi è la possibilità di eseguire il refactoring del modello
 o utilizzare delle tecniche di conversione avanzate.
+
+La \textbf{valutazione della conversione} è un passaggio importante prima di provare a convertire il modello. Durante la valutazione, infatti,
+si determina se il contenuto del modello è compatibile con il formato TensorFlow Lite in termini di dimensione dei dati utilizzati, requisiti di
+elaborazione hardware e dimensioni e complessità del modello. 
+La maggior parte dei modelli può essere convertita direttamente nel formato TensorFlow Lite, ma alcuni modelli potrebbero necessitare di un refactoring o
+di una conversione avanzata per renderli compatibili.
+La conversione vera e propria avviene tramite il \textbf{convertitore TensorFlow Lite} che prende un modello TensorFlow e genera un modello TensorFlow Lite
+in formato FlatBuffer. Il convertitore funziona con i seguenti formati del modello di input: SavedModel (modello TensorFlow salvato su disco come un
+insieme di file), modello Keras (creato utilizzando l'API di alto livello Keras), formato Keras H5 (una variante del SavedModel supportato dall’API Keras)
+e modelli creati tramite delle funzioni concrete (ossia tramite API TensorFlow di basso livello).
+
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Immagini/workflow.png}
@@ -43,24 +54,11 @@ o utilizzare delle tecniche di conversione avanzate.
     \label{fig:workflow}
 \end{figure}
 
-La \textbf{valutazione della conversione} è un passaggio importante prima di provare a convertire il modello. Durante la valutazione, infatti,
-si determina se il contenuto del modello è compatibile con il formato TensorFlow Lite in termini di dimensione dei dati utilizzati, requisiti di
-elaborazione hardware e dimensioni e complessità del modello. 
-
-La maggior parte dei modelli può essere convertita direttamente nel formato TensorFlow Lite ma alcuni modelli potrebbero necessitare di un refactoring o
-di una conversione avanzata per renderli compatibili.
-
-La conversione vera e propria avviene tramite il \textbf{convertitore TensorFlow Lite} che prende un modello TensorFlow e genera un modello TensorFlow Lite
-in formato FlatBuffer. Il convertitore funziona con i seguenti formati del modello di input: SavedModel (modello TensorFlow salvato su disco come un
-insieme di file), modello Keras (creato utilizzando l’api di alto livello Keras), formato Keras H5 (una variante del SavedModel supportato dall’API Keras)
-e modelli creati tramite delle funzioni concrete (ossia tramite API TensorFlow di basso livello).
-
 Il modello può essere convertito utilizzando l’\textbf{API Python} o anche lo strumento della riga di comando. E’ consigliato l’utilizzo dell’API Python perché
 consente di integrare la conversione nella pipeline di sviluppo, applicare ottimizzazioni, aggiungere metadati e altre ulteriori attività che
 semplificano il processo di conversione. La riga di comando, invece, supporta solo la conversione del modello di base.
-
-L’API Python, in particolare usa la classe \textbf{TF.lite.TFLiteConverter} e il suo metodo \texttt{from\_saved\_model()}, \texttt{from\_keras\_model()} e \texttt{from\_concrete\_functions()}
-per convertire modelli rispettivamente di tipo, SavedModel, Keras e da funzioni concrete.
+L’API Python usa, in particolare, la classe \textbf{TF.lite.TFLiteConverter} e i sui metodi \texttt{from\_saved\_model()}, \texttt{from\_keras\_model()} e \texttt{from\_concrete\_functions()}
+per convertire modelli rispettivamente di tipo SavedModel, Keras e da funzioni concrete.
 
 Il convertitore accetta, inoltre, 3 opzioni (o flag) che personalizzano la conversione del modello:
 \begin{itemize}
@@ -87,7 +85,7 @@ I modi principali in cui l’ottimizzazione del modello aiuta lo sviluppo dell�
     \item Compatibilità con l’acceleratore: l’ottimizzazione di un modello permette, in alcuni casi, di utilizzare acceleratori hardware estremamente
     efficienti e veloci.
 \end{itemize}
-L’ottimizzazione può, però, comportare modifiche nell’accuratezza del modello, che devono essere tenute in conto durante il processo di sviluppo di
+L’ottimizzazione può, però, comportare modifiche nell’accuratezza del modello, che devono essere tenute in considerazione durante il processo di sviluppo di
 un’applicazione. Queste variazioni di precisione dipendono molto dall’ottimizzazione del singolo modello e, per questo, non sono facili da prevedere.
 In genere, però, i modelli ottimizzati su dimensioni o latenza perdono sempre una quantità variabile di precisione (tendenzialmente piccola). 
 Ci sono diversi tipi di ottimizzazione, ma quelli più usati sono:
@@ -95,18 +93,18 @@ Ci sono diversi tipi di ottimizzazione, ma quelli più usati sono:
     \item Quantizzazione: tecnica di ottimizzazione che funziona riducendo la precisione dei valori usati per rappresentare i parametri di un modello,
     che di default sono numeri in virgola mobile a 32 bit. In base ai requisiti dei dati, la richiesta di dimensione, la precisione e l’hardware supportato vi
     sono 4 tipi di quantizzazione: float16 post-training, gamma dinamica post-training, intera post-training e training consapevole della quantizzazione.
-    Ogni tipologia è specifica per determinate casistiche ma, in generale, tutte le 4 quantizzazioni portano ad una riduzione della latenza e delle
+    Ogni tipologia è specifica per determinate casistiche ma, in generale, tutti e 4 i tipi di quantizzazione portano ad una riduzione della latenza e delle
     dimensioni a discapito della precisione del modello;
-    \item Pruning: Metodologia di ottimizzazione che funziona rimuovendo i parametri all’interno di un modello che hanno solo un impatto minimo sulle
+    \item Pruning: metodologia di ottimizzazione che funziona rimuovendo i parametri all’interno di un modello che hanno solo un impatto minimo sulle
     sue previsioni. In questo modo il modello avrà le stesse dimensioni e la stessa latenza di runtime ma potrà essere compresso in maniera più efficace
     e, quindi, sarà più facile ridurre le dimensioni di download;
-    \item Clustering: Strategia di ottimizzazione che prevede il raggruppamento dei pesi di ciascun livello di un modello in un numero predefinito di
+    \item Clustering: strategia di ottimizzazione che prevede il raggruppamento dei pesi di ciascun livello di un modello in un numero predefinito di
     cluster e, per ogni gruppo, il calcolo del valore del centroide. In questo modo, si riduce il numero dei pesi e quindi si diminuisce la complessità.
     I modelli a cui è stata applicata questa tecnica possono essere compressi più efficacemente.
 \end{itemize}
 
 \subsection{Eseguire l'inferenza}
-Una volta ottenuto il modello addestrato possiamo testarlo con operazioni di inferenza ossia il processo di generazione di stime del modello per nuovi
+Una volta ottenuto il modello addestrato è possibile testarlo con operazioni di inferenza, ossia il processo di generazione di stime del modello per nuovi
 non usati per la fase di training. Nel caso di TensorFlow Lite l’inferenza può essere eseguita in due modi diversi in base al tipo di modello:
 \begin{itemize}
     \item Nel caso di \textbf{modelli senza metadati} si può utilizzare l’API dell’interprete TensorFlow Lite;
@@ -116,7 +114,7 @@ non usati per la fase di training. Nel caso di TensorFlow Lite l’inferenza pu�
 Per eseguire un’inferenza in un modello TensorFlow Lite è necessario un \textbf{interprete}, il quale deve essere snello e veloce garantendo minima
 latenza di carico, di inizializzazione ed esecuzione. L’inferenza in TensorFlow Lite segue i seguenti passaggi:
 \begin{enumerate}
-    \item Caricamento del modello che contiene il grafico di esecuzione;
+    \item Caricamento del modello che contiene il grafo di esecuzione;
     \item Costruzione di un interprete e trasformazione del formato dei dati di input grezzi in un formato supportato dal modello;
     \item Esecuzione dell’inferenza, utilizzando apposite API per l’allocazione dei tensori;
     \item Interpretare l’output in un modo significativo che sia utile nell’applicazione.
@@ -131,12 +129,12 @@ domande e risposte, ecc. Le interfacce sono progettate specificamente per ciascu
 attività funziona su più piattaforme ed è supportata su Java, C++ e Swift.
 Quali sono le caratteristiche di una task library?
 \begin{itemize}
-    \item API ben definite utilizzabili anche da non esperti di machine learning: E’ possibile eseguire l’inferenza in sole 5 righe di codice. Le API
+    \item API ben definite utilizzabili anche da non esperti di machine learning: È possibile eseguire l’inferenza in sole 5 righe di codice. Le API
     fornite sono potenti e facili da usare, e permettono il facile sviluppo di modelli di machine learning su dispositivi mobili;
     \item Elaborazione dei dati complessa ma efficace: supporta la logica di elaborazione del linguaggio naturale per la conversione dei dati nel
     formato richiesto dal modello. Questa logica è usabile anche nell’addestramento e nell’inferenza;
-    \item Aumento della performance: L’elaborazione dei dati viene eseguita in pochi millisecondi, assicurando inferenze rapide e poco costose;
-    \item Estendibilità e personalizzazione: E’ possibile sfruttare tutte i vantaggi forniti dalle task libraries e creare facilmente API personalizzate
+    \item Aumento della performance: l’elaborazione dei dati viene eseguita in pochi millisecondi, assicurando inferenze rapide e poco costose;
+    \item Estendibilità e personalizzazione: è possibile sfruttare tutte i vantaggi forniti dalle task libraries e creare facilmente API personalizzate
     di inferenza Android/iOS.
 \end{itemize}
 
@@ -145,7 +143,7 @@ oggetti), di linguaggio naturale, di audio e personalizzate.
 
 \subsection{Support libraries di TensorFlow Lite}
 Gli sviluppatori di applicazioni per dispositivi mobili interagiscono con oggetti tipizzati come bitmap o con primitive come gli interi. TensorFlow Lite,
-però, usa tensori nella forma di ByteBuffer che sono difficili da debuggare e manipolare. Le support libraries android di TensorFlow Lite nascono proprio
+però, usa tensori nella forma di ByteBuffer che sono difficili da debuggare e manipolare. Le support libraries Android di TensorFlow Lite nascono proprio
 da questa necessità di supportare l’elaborazione di input e di output di modelli TFLite, rendendo l’interprete più facile da usare.
-Le libreria di supporto TensorFlow Lite forniscono, per esempio, una serie di metodi di manipolazione delle immagini base (ritagli/ridimensionamenti) e
+Le librerie di supporto TensorFlow Lite forniscono, per esempio, una serie di metodi di manipolazione delle immagini base (ritagli/ridimensionamenti) e
 di elaborazione di dati audio di base.

@@ -41,8 +41,8 @@
 \contentsline {subsection}{\numberline {4.5.1}Ambiente di runtime}{28}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}API e librerie di sviluppo}{28}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}I tensori}{29}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Gestione dei dati in input}{30}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Gestione dei risultati in output}{30}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Approcci di sviluppo avanzati}{31}{section.4.8}%
+\contentsline {subsection}{\numberline {4.5.4}Gestione dei dati in input}{30}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}Gestione dei risultati in output}{30}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}Approcci di sviluppo avanzati}{30}{subsection.4.5.6}%
 \contentsline {chapter}{\numberline {5}PyTorch Mobile vs TensorFlow Lite}{32}{chapter.5}%
 \contentsline {chapter}{Bibliografia}{34}{chapter*.19}%

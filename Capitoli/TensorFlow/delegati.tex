@@ -1,8 +1,7 @@
 \section{Miglioramento delle prestazioni: i delegati}
-TensorFlow Lite mette a disposizione diverse strategie per l’ottimizzazione e la massimizzazione delle prestazioni di un modello di machine learning.
-Uno di questi è il delegato. Un delegato consente di eseguire i modelli (in parte o interamente) su un altro esecutore più efficiente specificatamente
+TensorFlow Lite mette a disposizione diverse strategie per l’ottimizzazione e la massimizzazione delle prestazioni di un modello di machine learning,
+uno di questi è il delegato. Un delegato consente di eseguire i modelli (in parte o interamente) su un altro esecutore più efficiente specificatamente
 per il tipo di modello e la piattaforma su cui si esegue.                                                                                                                                       
-
 I delegati abilitano l'accelerazione hardware dei modelli TensorFlow Lite sfruttando gli acceleratori sul dispositivo come la GPU e il processore di
 segnale digitale (DSP).
 
@@ -27,9 +26,9 @@ la scelta di un delegato si basa su due criteri principali: la piattaforma (Andr
 accelerare. Per quanto riguarda la piattaforma:
 \begin{itemize}
     \item Multipiattaforma (Android e iOS): GPU è l’unico tra i vari delegati che permette l’utilizzo sia su android che su iOS;
-    \item Android: Ci sono due delegati che supportano l’utilizzo su android (e NON su iOS), ossia il delegato NNAPI (disponibile in android 8.1 e
+    \item Android: ci sono due delegati che supportano l’utilizzo su android (e NON su iOS), ossia il delegato NNAPI (disponibile in android 8.1 e
     versioni successive) e il delegato Hexagon (disponibile in versioni android precedenti che non supportano NNAPI);
-    \item iOS: L’unico delegato ottimizzato per iOS è Core ML (disponibile su dispositivi mobili apple con SoC A12 o superiore).
+    \item iOS: l’unico delegato ottimizzato per iOS è Core ML (disponibile su dispositivi mobili apple con SoC A12 o superiore).
 \end{itemize}
 Per quanto riguarda il tipo di modello:
 \begin{center}
@@ -50,7 +49,6 @@ Per quanto riguarda il tipo di modello:
         
     \end{tabular}
 \end{center}
-
 Ogni acceleratore è progettato per una certa larghezza di bit dei dati. Per esempio, se viene fornito un modello in virgola mobile ad un delegato che
 supporta solo operazioni quantizzate a 8 bit (come il delegato Hexagon), allora il delegato non accetterà il modello il quale verrà eseguito interamente
 sulla CPU.
@@ -60,26 +58,25 @@ configurazione errata su un dispositivo può causare elevata latenza, errori di 
 sfociando, quindi, in un servizio scadente e insoddisfacente per l’utente. In questo contesto, TensorFlow Lite mette a disposizione un \textbf{servizio di
 accelerazione per Android}: un'API che aiuta nella scelta della configurazione di accelerazione hardware ottimale per un determinato dispositivo utente e
 per uno specifico modello, riducendo al minimo il rischio di errori di runtime o problemi di precisione.
-
 Il servizio di accelerazione valuta diverse configurazioni di accelerazione sui dispositivi target eseguendo benchmark di inferenza con il modello
 TensorFlow Lite creato. I risultati dell’esecuzione dei benchmark possono essere salvati su cache e utilizzati durante l’inferenza. Inoltre, questi
 benchmark sono fuori processo, riducendo al minimo il rischio di arresti anomali dell’applicazione Android.
+Fornendo il  modello, i campioni di dati e i risultati attesi il servizio di accelerazione eseguirà un benchmark di inferenza TFLite per fornire
+consigli hardware allo sviluppatore.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.7\textwidth]{Immagini/accelerazione.png}
+    \includegraphics[width=0.6\textwidth]{Immagini/accelerazione.png}
     \caption{Schema riassuntivo del funzionamento del servizio di accelerazione}
     \label{fig:accelerazione}
 \end{figure}
 
-Fornendo il  modello, i campioni di dati e i risultati attesi il servizio di accelerazione eseguirà un benchmark di inferenza TFLite per fornire
-consigli hardware allo sviluppatore.
 
 \subsection{Tools per la valutazione}
 TensorFlow Lite fornisce strumenti di valutazione delle prestazioni e dell’accuratezza che consentono agli sviluppatori di analizzare e verificare
 l’efficienza dell’utilizzo dei delegati nell’applicazione creata. I due principali tools utilizzati sono:
 \begin{itemize}
-    \item Tools per la latenza e l’utilizzo di memoria: che stimano le prestazioni del modello considerando la latenza media di inferenza,
+    \item Tools per la latenza e l’utilizzo di memoria: stimano le prestazioni del modello considerando la latenza media di inferenza,
     l’overhead di inizializzazione, l’ingombro di memoria e altri;
     \item Tools per l’accuratezza e la correttezza: tendenzialmente, i delegati eseguono calcoli con una precisione differente rispetto ai kernel CPU.
     Di conseguenza, quando uso un delegato per l’accelerazione hardware la precisione tende a diminuire. Questo non succede sempre: per esempio la GPU,

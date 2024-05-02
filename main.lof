@@ -15,6 +15,6 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Workflow di conversione di TensorFlow Lite}}{21}{figure.caption.14}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Distinzione tra kernel CPU e i delegati.}}{25}{figure.caption.15}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Schema riassuntivo del funzionamento del servizio di accelerazione}}{26}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Schema di esecuzione di un modello in un app Android.}}{28}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Percettrone, esempio di un semplice grafo con tensori e operazioni}}{30}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schema di esecuzione di un modello in un app Android.}}{27}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Percettrone, esempio di un semplice grafo con tensori e operazioni}}{29}{figure.caption.18}%
 \addvspace {10\p@ }
