@@ -7,83 +7,84 @@ La CPU da sola, però, nella maggior parte dei casi non riesce a reggere quantit
 base date dall’OS (Android nel nostro caso, ma anche iOS per esempio) e varie operazioni di I/O e memory. Proprio per questa sua limitazione, nella grande
 maggioranza degli smartphone moderni si trovano installati nella Motherboard anche altri componenti, in particolare una Scheda Video (GPU) ed eventualmente
 altri moduli quali Digital Signal Processor (DSP) e Neural Processing Unit (NPU). 
-Una scheda video, come suggerisce il nome, fornisce la potenza di calcolo necessaria a renderizzare ogni aspetto legato alla GUI dell’utente, ma non solo,
-infatti grazie alla sua elevata potenza, può essere ampiamente sfruttata per tutte le operazioni che richiedono una grande quantità di dati da elaborare e
+Una scheda video, come suggerisce il nome, fornisce la potenza di calcolo necessaria a renderizzare ogni aspetto legato alla GUI dell’utente, ma non solo.
+Grazie alla sua elevata potenza infatti, può essere ampiamente sfruttata per tutte le operazioni che richiedono una grande quantità di dati da elaborare e
 lo stesso può essere detto per DSP. 
-Discorso a parte per le NPU. Si tratta di un processore “complementare” adatto a eseguire operazioni di calcolo prettamente incentrate sulle reti neurali.
-Su ambienti mobile la prima comparsa è stata nel 2017, quindi relativamente recente, grazie alla presenza di una NPU sul chip kirin 970, presente nel Huawei
+
+Discorso a parte per le NPU: si tratta di un processore “complementare” adatto ad eseguire operazioni di calcolo prettamente incentrate sulle reti neurali.
+In ambienti mobile la prima comparsa è stata nel 2017, quindi relativamente recente, grazie alla presenza di una NPU sul chip kirin 970, presente nel Huawei
 Mate 10 pro.
 La sola integrazione di questo componente ha portato grandi vantaggi in termini di prestazioni e di efficienza energetica (si parla di un 50\% di efficienza
-energetica guadagnata rispetto alla gamma precedente) rendendolo di fatto importante per tutti i prodotti successivi. Grazie a questa novità da parte di
-Huawei anche i vari competitors iniziarono a produrre, ricercare e sperimentare il più possibile per stare al passo con il mercato, rendendo di fatto le NPU,
-e il mondo dell’AI e delle reti neurali in generale, una realtà quotidiana presente su piccolo schermo.
+energetica guadagnata rispetto alla gamma precedente), rendendolo di fatto importante per tutti i prodotti successivi. Grazie a questa novità da parte di
+Huawei, anche i vari competitors iniziarono a produrre, ricercare e sperimentare il più possibile per stare al passo con il mercato, rendendo di fatto le NPU,
+e il mondo dell’AI e delle reti neurali in generale, una realtà quotidiana presente su quasi ogni piccolo schermo.
 
 Tornando quindi all’accelerazione hardware, il punto cardine è la possibilità di sfruttare tutti gli altri componenti oltre alla CPU per eseguire complesse
 operazioni di calcolo e facilitare l’elaborazione di dati. 
-In tema reti neurali, si ottiene un guadagno sotto più punti di vista per quanto riguarda operazioni di inferenza. Sicuramente si ottiene un incremento
+In tema reti neurali, si ottiene un guadagno sotto più punti di vista per quanto riguarda le operazioni di inferenza. Sicuramente si ottiene un incremento
 nella velocità di risposta, in quanto il carico di lavoro viene efficientemente distribuito tra le varie unità di calcolo disponibili, e una ridotta
 latenza generale, in quanto non c’è necessità di contattare un server esterno per richiedere dati.
-Grazie a ciò non è nemmeno necessaria una connessione esterna, quale wifi o LTE, in quanto è possibile avere i dati in locale, rendendola di fatto
-disponibile sempre e comunque in qualsiasi situazione a patto che ci sia batteria residua.
-La questione energetica è un argomento piuttosto delicato, perché unità di elaborazione come GPU e DSP sono molto dispendiose in termini energetici e
-spesso si deve ricorrere a compromessi.
-Altro punto a sfavore, soprattutto per smartphone meno performanti, è la questione memoria. L’APK specifico potrebbe avere un peso di svariati GB e in
-esecuzione la RAM potrebbe facilmente risultare piena, rischiando di portare il sistema in stati di rallentamenti o crash.
-Un punto di forza è sicuramente la privacy, in quanto i dati rimangono all’interno del dispositivo.
+Grazie a ciò, non è nemmeno necessaria una connessione esterna, quale wifi o LTE, in quanto è possibile avere i dati salvati in locale, rendendoli di fatto
+sempre disponibili in qualsiasi situazione, a patto che ci sia batteria residua.
+La questione energetica è un argomento piuttosto delicato, perché unità di elaborazione come GPU e DSP sono molto dispendiose in termini di batteria e
+spesso si deve ricorrere a dei compromessi.
+Altro punto a sfavore, soprattutto per smartphone meno performanti, è la questione memoria: l’APK specifico potrebbe avere un peso di svariati GB e in
+esecuzione la RAM potrebbe facilmente risultare piena, rischiando così di portare il sistema in stati di rallentamento o crash.
+Un punto di forza riguarda sicuramente la privacy, in quanto i dati rimangono all’interno del dispositivo e non sono salvati su un cloud.
 
 \section{API Android Neural Networks}
 L’API Android Neural Networks è una API pensata per eseguire operazioni pesanti, in termini di calcolo computazionale, per il machine learning su
-dispositivi Android. In particolare la compatibilità SW è elevata, in quanto presente in ogni dispositivo con Android 8.1 (livello API 27) o successivo,
+dispositivi Android. Ha una compatibilità SW estremamente elevata, in quanto può essere utilizzata su ogni dispositivo con Android 8.1 (livello API 27) o successivo,
 coprendo quindi più del 90\% dei dispositivi android attualmente in uso.
 
-La NNAPI può essere sfruttata programmando in linguaggio C/C++ e sfruttando librerie di sistema di livello superiore come "Runtime NNAPI”.
-Runtime NNAPI si tratta di una libreria condivisa tra un’app e i driver back-end con la particolarità di essere aggiornabile, per ricevere aggiornamenti
+La NNAPI può essere sfruttata programmando in linguaggio C/C++ e usando librerie di sistema di livello superiore come "Runtime NNAPI”.
+Runtime NNAPI è una libreria condivisa tra un’app e i driver back-end con la particolarità di essere aggiornabile, per ricevere aggiornamenti
 al di fuori del normale ciclo di rilascio di Android. Gli sviluppatori, quindi, possono correggere più facilmente bug presenti nel runtime e migliorarne
 le compatibilità con i driver.
 
-La vera potenza di queste API però, risiede nella possibilità di essere sfruttate da framework superiori come TensorFlow Lite, PyTorch o Caffe2 che
+La vera potenza di queste API però, risiede nella possibilità di essere sfruttate da framework superiori come TensorFlow Lite, PyTorch Mobile o Caffe2 che
 creano e addestrano reti neurali. Grazie a NNAPI è dunque possibile sfruttare modelli già definiti e allenati, avendo quindi un’abbondanza di dati a
 disposizione.
 
-\begin{figure}
+In figura \ref{fig:nnapiArchitecture} si riesce a visualizzare facilmente il flusso di lavoro. L’applicazione utilizza le librerie e i framework di machine
+learning (come PyTorch o Runtime NNAPI) che a loro volta sfruttano le API di basso livello di NNAPI.
+Questa comunica con l’astrazione HW del dispositivo per rete neurale, contattando i driver che si interfacciano all’hardware specifico (GPU, DSP, ecc\dots).
+Questo meccanismo efficace permette di dividere il lavoro in vari livelli di astrazione, in modo da isolare i compiti e ridurre le problematiche, aumentando
+la rapidità di risoluzione dei vari bug presenti. Questo meccanismo di divisione dei compiti è alla base di due importanti design pattern, in particolare
+“Responsibility”, che permette di dividere le responsabilità ad ogni layer, e “Layered Architecture”, che, come suggerisce il nome, è un pattern architetturale
+che ha come concetto di base la suddivisione del software in vari strati. La tipologia sopra descritta è alla base della progettazione Android e Java.
+
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{Immagini/nnapi_architecture.png}
+    \includegraphics[width=0.7\textwidth]{Immagini/nnapi_architecture.png}
     \caption{Architettura di sistema per l'API Android Neural Networks.}
     \label{fig:nnapiArchitecture}
 \end{figure}
 
-In figura \ref{fig:nnapiArchitecture} si riesce a visualizzare facilmente il flusso di lavoro. L’applicazione utilizza le librerie e i framework di machine
-learning (come PyTorch o Runtime NNAPI) che a loro volta sfruttano le API di basso livello di NNAPI.
-NNAPI comunica con l’astrazione HW del dispositivo per rete neurale, contattando i driver che si interfacciano all’hardware specifico (GPU, DSP ecc.).
-Questo meccanismo efficace permette di dividere il lavoro in vari livelli di astrazione, in modo da isolare i compiti e ridurre problematiche, aumentando
-la rapidità di risoluzione dei vari bug presenti. Questo meccanismo di divisione dei compiti è alla base di due importanti design pattern, in particolare
-“Responsibility”, che permette di dividere le responsabilità ad ogni layer, e “Layered Architecture”, che come suggerisce il nome è un pattern architetturale
-che come concetto alla base ha la suddivisione del software in vari strati. La tipologia sopra descritta è alla base della progettazione Android e Java.
-
-Per sfruttare i calcoli tramite NNAPI è necessario prima creare un grafico diretto che definisca i suddetti calcoli. Questo grafico infatti, combinato con
+Per sfruttare i calcoli tramite NNAPI è necessario prima creare un grafo diretto che definisca i suddetti calcoli. Questo grafo infatti, combinato con
 i vari dati di input, forma il modello per la valutazione del runtime NNAPI. Vengono definite 4 astrazioni principali con NNAPI:
 \begin{itemize}
-    \item \textbf{Modello}: si tratta di un grafico di calcolo delle operazioni matematiche e di tutti i valori costanti appresi durante il processo
-    di addestramento e sono operazioni specifiche delle reti neurali. Includono convoluzione bidimensionale\footnote{https://en.wikipedia.org/wiki/Convolution}
+    \item \textbf{Modello}: si tratta di un grafo di calcolo delle operazioni matematiche e di tutti i valori costanti appresi durante il processo
+    di addestramento, che sono operazioni specifiche delle reti neurali. Includono convoluzione bidimensionale\footnote{https://en.wikipedia.org/wiki/Convolution}
     (2D), attivazione logistica (sigmoid\footnote{https://en.wikipedia.org/wiki/Sigmoid\_function}), attivazione lineare rettificata\footnote{https://en.wikipedia.org/wiki/Rectifier\_(neural\_networks)}
     (ReLU) e altro ancora. Una volta creato correttamente, può essere utilizzato nuovamente in tutti i vari thread e le compilation. In NNAPI, un modello
     è rappresentato come un'istanza ANeuralNetworksModel\footnote{https://developer.android.com/ndk/reference/group/neural-networks?hl=it\#aneuralnetworksmodel}.
     La creazione di un modello è un'operazione sincrona.
     \item \textbf{Compilation}: rappresenta una configurazione per compilare un modello NNAPI in codice di livello inferiore. La creazione di una
-    compilazione è un'operazione sincrona. Una volta creato correttamente, può essere riutilizzato in più thread ed esecuzioni. In NNAPI, ogni
+    compilazione è un'operazione sincrona. Una volta creata correttamente, può essere riutilizzata in più thread ed esecuzioni. In NNAPI, ogni
     compilazione è rappresentata come un'istanza ANeuralNetworksCompilation\footnote{https://developer.android.com/ndk/reference/group/neural-networks?hl=it\#aneuralnetworkscompilation}.
     \item \textbf{Memoria}: rappresenta la memoria condivisa, i file mappati di memoria e buffer di memoria simili. L'utilizzo di un buffer di memoria
     consente al runtime NNAPI di trasferire i dati ai driver in modo più efficiente. In genere, un'app crea un buffer di memoria condiviso contenente
-    tutti i tensori necessari per definire un modello. Puoi anche utilizzare i buffer di memoria per archiviare gli input e gli output per un'istanza di
+    tutti i tensori necessari per definire un modello. È possibile utilizzare anche i buffer di memoria per archiviare gli input e gli output per un'istanza di
     esecuzione. In NNAPI, ogni buffer di memoria è rappresentato come un'istanza ANeuralNetworksMemory\footnote{https://developer.android.com/ndk/reference/group/neural-networks?hl=it\#aneuralnetworksmemory}.
     \item \textbf{Esecuzione}: interfaccia per l'applicazione di un modello NNAPI a un insieme di input e per la raccolta dei risultati. L'esecuzione
     può essere eseguita in modo sincrono o asincrono. Per l'esecuzione asincrona, più thread possono attendere la stessa esecuzione. Al termine di questa
     esecuzione, tutti i thread vengono rilasciati. In NNAPI, ogni esecuzione è rappresentata come un'istanza ANeuralNetworksExecution\footnote{https://developer.android.com/ndk/reference/group/neural-networks?hl=it\#aneuralnetworksexecution}.
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=0.9\textwidth]{Immagini/nnapi\_flow.png}
+    \includegraphics[width=0.7\textwidth]{Immagini/nnapi\_flow.png}
     \caption{Flusso di programmazione per l'API Android Neural Networks.}
     \label{}
 \end{figure}

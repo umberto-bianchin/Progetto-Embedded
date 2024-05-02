@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Fasi operative}{6}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}Compilation}{7}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Esecuzione Sincrona VS Asincrona}{7}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Gestione errori}{8}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Gestione errori}{7}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Memoria}{8}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Tempo di esecuzione}{8}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Log}{9}{subsection.2.5.1}%
