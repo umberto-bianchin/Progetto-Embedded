@@ -14,9 +14,9 @@ del 75\% il consumo di energia. A ciascuno di questi acceleratori sono associate
 ES per GPU e Hexagon SDK per DSP. Dunque, per il corretto funzionamento degli acceleratori è necessario scrivere parecchio codice. TensorFlow Lite risolve
 il problema fornendo delle API che fungono come ponte tra il runtime TFLite e queste API di basso livello.
 
-\begin{figure}
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=0.5\textwidth]{Immagini/logo_dei.png}
+    \includegraphics[width=0.8\textwidth]{Immagini/delegate_runtime.png}
     \caption{Distinzione tra kernel CPU e i delegati. Fonte}
     \label{fig:distinzione}
 \end{figure}
@@ -65,9 +65,9 @@ Il servizio di accelerazione valuta diverse configurazioni di accelerazione sui 
 TensorFlow Lite creato. I risultati dell’esecuzione dei benchmark possono essere salvati su cache e utilizzati durante l’inferenza. Inoltre, questi
 benchmark sono fuori processo, riducendo al minimo il rischio di arresti anomali dell’applicazione Android.
 
-\begin{figure}
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=0.5\textwidth]{Immagini/logo_dei.png}
+    \includegraphics[width=0.7\textwidth]{Immagini/accelerazione.png}
     \caption{Schema riassuntivo del funzionamento del servizio di accelerazione}
     \label{fig:accelerazione}
 \end{figure}

@@ -4,7 +4,7 @@
 % openright: i capitoli cominciano in pagine dispari ("a destra")
 % extreport: supporta 12pt
 
-\documentclass[12pt,a4paper,openright]{extreport}
+\documentclass[12pt,a4paper]{extreport}
 
 \usepackage{amsmath}                            % per avere più controllo sulle equazioni 
 \usepackage{enumitem}                           % per avere più controllo sulle enumerazioni
@@ -78,7 +78,6 @@
 
     \tableofcontents
     \listoffigures
-    %\listoflistings
     \cleardoublepage % per assicurarsi che la numerazione araba cominci col primo capitolo
 
     \pagenumbering{arabic}
@@ -91,7 +90,8 @@
     }
     \setlength{\headheight}{14.5pt}
 
-    \input{Capitoli/nnapi.tex}
+    \input{Capitoli/neural.tex}
+    \input{Capitoli/NNAPI/nnapi.tex}
     \input{Capitoli/PyTorch/pytorch.tex}
     \input{Capitoli/TensorFlow/tensorflow.tex}
     \input{Capitoli/confronto.tex}

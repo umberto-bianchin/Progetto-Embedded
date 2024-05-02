@@ -2,15 +2,19 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Architettura di sistema per l'API Android Neural Networks. Fonte \blx@tocontentsinit {0}\cite {NNAPI}}}{3}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Flusso di programmazione per l'API Android Neural Networks. Fonte \blx@tocontentsinit {0}\cite {NNAPI}}}{5}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Workflow dal training al rilascio di un modello su piattaforma mobile. Fonte \blx@tocontentsinit {0}\cite {PyTorchOfficial}}}{8}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Operatori compatibili con i due diversi tipi di quantizzazione}}{10}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Accelerated GPU training and evaluation speedups over CPU-only. Fonte \blx@tocontentsinit {0}\cite {Metal}}}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architettura di sistema per l'API Android Neural Networks. Fonte \blx@tocontentsinit {0}\cite {NNAPI}}}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Flusso di programmazione per l'API Android Neural Networks. Fonte \blx@tocontentsinit {0}\cite {NNAPI}}}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Esempio di operandi per un modello NNAPI}}{6}{figure.caption.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramma dei punteggi di utilizzo di vari framework nel 2018}}{14}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow di conversione di TensorFlow Lite}}{16}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Distinzione tra kernel CPU e i delegati. Fonte}}{21}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Schema riassuntivo del funzionamento del servizio di accelerazione}}{22}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Workflow dal training al rilascio di un modello su piattaforma mobile. Fonte \blx@tocontentsinit {0}\cite {PyTorchOfficial}}}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Operatori compatibili con i due diversi tipi di quantizzazione}}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Accelerated GPU training and evaluation speedups over CPU-only. Fonte \blx@tocontentsinit {0}\cite {Metal}}}{16}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramma dei punteggi di utilizzo di vari framework nel 2018}}{18}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Workflow di conversione di TensorFlow Lite}}{21}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Distinzione tra kernel CPU e i delegati. Fonte}}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Schema riassuntivo del funzionamento del servizio di accelerazione}}{26}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schema di esecuzione di un modello in un app Android. Fonte }}{28}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Percettrone, esempio di un semplice grafo con tensori e operazioni}}{30}{figure.caption.18}%
 \addvspace {10\p@ }

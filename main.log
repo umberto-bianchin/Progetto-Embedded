@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  30 APR 2024 16:11
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  2 MAY 2024 11:18
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1116,44 +1116,61 @@ File: Immagini/logo_dei.png Graphic file (type bmp)
  [1
 
 
-]) (./main.toc)
+]) (./main.toc [1
+
+
+
+])
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [1
-
-
-
-] (./main.lof)
+ [2] (./main.lof)
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
- [2
+ [3
 
-] (./Capitoli/nnapi.tex
+] (./Capitoli/neural.tex
 Capitolo 1.
-[1
+) (./Capitoli/NNAPI/nnapi.tex [1
 
+
+]
+Capitolo 2.
+[2
 
 ]
 File: Immagini/nnapi_architecture.png Graphic file (type bmp)
 <Immagini/nnapi_architecture.png>
- [2] [3]
+ [3] [4]
 File: Immagini/nnapi_flow.png Graphic file (type bmp)
 <Immagini/nnapi_flow.png>
- [4]) (./Capitoli/PyTorch/pytorch.tex [5]
-Capitolo 2.
-[6
+ [5] (./Capitoli/NNAPI/modello.tex
+File: Immagini/operandi.png Graphic file (type bmp)
+<Immagini/operandi.png>
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+\TU/TimesNewRoman(0)/m/n/12 Dopo la creazione è necessario aggiungere i vari operandi attraverso
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+\TU/lmtt/m/n/12 ANeuralNetworks_addOperand() \TU/TimesNewRoman(0)/m/n/12 e sfruttando le strutture dati fornite, come
+ []
+
+[7] [8])) (./Capitoli/PyTorch/pytorch.tex [9]
+Capitolo 3.
+[10
 
 ] (./Capitoli/PyTorch/workflow.tex
 File: Immagini/workflow_pytorch.png Graphic file (type bmp)
 <Immagini/workflow_pytorch.png>
- [7] [8]
+ [11] [12]
 File: Immagini/operator coverage.png Graphic file (type bmp)
 <Immagini/operator coverage.png>
- [9]
+ [13]
 Underfull \hbox (badness 10000) in paragraph at lines 77--82
-\TU/TimesNewRoman(0)/m/n/12 Grazie alla funzionalità \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile\TU/TimesNewRoman(0)/m/n/12 [[]12[]] si
+\TU/TimesNewRoman(0)/m/n/12 Grazie alla funzionalità \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile\TU/TimesNewRoman(0)/m/n/12 [[]14[]] si
  []
 
 
@@ -1181,85 +1198,87 @@ Underfull \hbox (badness 4621) in paragraph at lines 84--85
 []\TU/TimesNewRoman(0)/m/it/12 preserved_methods\TU/TimesNewRoman(0)/m/n/12 : lista di metodi che devono essere mantenuti quando si invoca
  []
 
-[10]) [11]
+[14]) [15]
 File: Immagini/metal.png Graphic file (type bmp)
 <Immagini/metal.png>
- (./Capitoli/PyTorch/mobile.tex)) (./Capitoli/TensorFlow/tensorflow.tex [12]
-Capitolo 3.
-File: Immagini/logo_dei.png Graphic file (type bmp)
-<Immagini/logo_dei.png>
-[13
+ (./Capitoli/PyTorch/mobile.tex)) (./Capitoli/TensorFlow/tensorflow.tex [16]
+Capitolo 4.
+File: Immagini/diagramma.png Graphic file (type bmp)
+<Immagini/diagramma.png>
+[17
 
 ]
 Underfull \hbox (badness 1622) in paragraph at lines 33--34
 []\TU/TimesNewRoman(0)/m/n/12 Supporto per più piattaforme, coprendo dispositivi Android e iOS, Linux embedded e
  []
 
-[14] (./Capitoli/TensorFlow/workflow.tex [15]
-File: Immagini/logo_dei.png Graphic file (type bmp)
-<Immagini/logo_dei.png>
- [16]
-Underfull \hbox (badness 5119) in paragraph at lines 63--65
+[18] (./Capitoli/TensorFlow/workflow.tex [19]
+File: Immagini/workflow.png Graphic file (type bmp)
+<Immagini/workflow.png>
+ [20]
+Underfull \hbox (badness 5119) in paragraph at lines 62--64
 []\TU/TimesNewRoman(0)/m/n/12 L’API Python, in particolare usa la classe \TU/TimesNewRoman(0)/b/n/12 TF.lite.TFLiteConverter \TU/TimesNewRoman(0)/m/n/12 e il suo metodo
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 63--65
+Underfull \hbox (badness 1496) in paragraph at lines 62--64
 \TU/lmtt/m/n/12 from_saved_model()\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 from_keras_model() \TU/TimesNewRoman(0)/m/n/12 e \TU/lmtt/m/n/12 from_concrete_functions() \TU/TimesNewRoman(0)/m/n/12 per convertire
  []
 
-[17] [18] [19]) (./Capitoli/TensorFlow/delegati.tex
+[21] [22] [23]) (./Capitoli/TensorFlow/delegati.tex
 Underfull \hbox (badness 2762) in paragraph at lines 6--8
 []\TU/TimesNewRoman(0)/m/n/12 I delegati abilitano l’accelerazione hardware dei modelli TensorFlow Lite sfruttando gli
  []
 
-File: Immagini/logo_dei.png Graphic file (type bmp)
-<Immagini/logo_dei.png>
-[20] [21]
-File: Immagini/logo_dei.png Graphic file (type bmp)
-<Immagini/logo_dei.png>
- [22])) (./Capitoli/confronto.tex [23]
-Capitolo 4.
-) [24
+[24]
+File: Immagini/delegate_runtime.png Graphic file (type bmp)
+<Immagini/delegate_runtime.png>
+ [25]
+File: Immagini/accelerazione.png Graphic file (type bmp)
+<Immagini/accelerazione.png>
+ [26]) (./Capitoli/TensorFlow/tensorflow_android.tex
+Underfull \hbox (badness 1253) in paragraph at lines 2--3
+\TU/TimesNewRoman(0)/m/n/12 TensorFlow Lite fornisce dispone di ambienti di esecuzione predefiniti e personalizzabili per
+ []
 
-]
+File: Immagini/esecuzione.png Graphic file (type bmp)
+<Immagini/esecuzione.png>
+[27] [28]
+File: Immagini/tensore.png Graphic file (type bmp)
+<Immagini/tensore.png>
+ [29] [30])) (./Capitoli/confronto.tex [31]
+Capitolo 5.
+[32
+
+]) [33]
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
 []\TU/TimesNewRoman(0)/m/n/12 Sujatha Mudadla. \TU/TimesNewRoman(0)/m/it/12 PyTorch Mobile\TU/TimesNewRoman(0)/m/n/12 . 2023. URL: []$[][][][][] [] [] [] [][][][][][] [] [][][] []
  []
 
-[25
+[34
 
 ] (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) [26] (./main.aux)
+) [35] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B131E7733CCB0E36EA578EB9E78BA22D;4619.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 92B9B95FA34C863B74186F05BE8E05A5;7164.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36892 strings out of 474779
- 758324 string characters out of 5758009
- 1938839 words of memory out of 5000000
- 58466 multiletter control sequences out of 15000+600000
+ 36985 strings out of 474779
+ 760979 string characters out of 5758009
+ 1940839 words of memory out of 5000000
+ 58543 multiletter control sequences out of 15000+600000
  562525 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,11n,93p,910b,32893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,910b,32892s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (29 pages).
+Output written on main.pdf (39 pages).

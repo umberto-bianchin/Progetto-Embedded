@@ -36,10 +36,9 @@ Come primo passaggio di tale processo, infatti, è necessario valutare il modell
 Questa valutazione determina se il contenuto del modello è supportato dagli ambienti di runtime TensorFlow Lite standard in base alle operazioni
 TensorFlow che utilizza. Se il modello utilizza operazioni non presenti nel set supportato, vi è la possibilità di eseguire il refactoring del modello
 o utilizzare delle tecniche di conversione avanzate.
-
-\begin{figure}
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=0.5\textwidth]{Immagini/logo_dei.png}
+    \includegraphics[width=0.8\textwidth]{Immagini/workflow.png}
     \caption{Workflow di conversione di TensorFlow Lite}
     \label{fig:workflow}
 \end{figure}
@@ -53,7 +52,7 @@ di una conversione avanzata per renderli compatibili.
 
 La conversione vera e propria avviene tramite il \textbf{convertitore TensorFlow Lite} che prende un modello TensorFlow e genera un modello TensorFlow Lite
 in formato FlatBuffer. Il convertitore funziona con i seguenti formati del modello di input: SavedModel (modello TensorFlow salvato su disco come un
-insieme di file), modello Keras (creato utilizzando l’api di alto livello Keras), formato Keras H5 (una variante del SavedModel supportato dall’api Keras)
+insieme di file), modello Keras (creato utilizzando l’api di alto livello Keras), formato Keras H5 (una variante del SavedModel supportato dall’API Keras)
 e modelli creati tramite delle funzioni concrete (ossia tramite API TensorFlow di basso livello).
 
 Il modello può essere convertito utilizzando l’\textbf{API Python} o anche lo strumento della riga di comando. E’ consigliato l’utilizzo dell’API Python perché
