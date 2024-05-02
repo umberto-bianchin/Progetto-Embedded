@@ -6,8 +6,8 @@ combinando la libreria di machine learning \textbf{Torch}\cite{Torch} con un’A
 del Deep Learning, per fornire tool semplici e flessibili insieme a performance elevate; uno dei sui punti salienti è il grande supporto per le GPU, che 
 contribuisce ad un allenamento più efficiente dei modelli di deep learning.
 PyTorch fornisce innanzitutto un pacchetto Python per funzionalità ad alto livello, come l'elaborazione dei \textbf{tensori}\footnote{Array multidimensionale utilizzato per memorizzare dati. Nel campo del Machine Learning vengono usati per rappresentare e manipolare input, pesi e output.}
-ed inoltre un così detto \textbf{TorchScript}, che permette di creare modelli da PyTorch che possono poi venire salvati e caricati in un processo dove non c'è alcuna 
-dipendenza di Python.
+ed inoltre una conversione in un formato così detto \textbf{TorchScript}, che permette di convertire modelli PyTorch in modo da poter essere eseguiti in un ambiente non-Python, rendendoli adatti per l'uso su piattaforme con risorse limitate,
+come i dispositivi mobili.
 
 PyTorch Mobile\cite{PyTorchMed}, introdotto per la prima volta nel 2019 alla \textit{PyTorch Developer Conference}, si riferisce ad un set di librerie e funzionalità fornite da PyTorch che
 permettono allo sviluppatore di eseguire un modello PyTorch direttamente su dispositivi mobili, come smartphone e tablet.
@@ -43,8 +43,6 @@ alle capacità di elaborazione parallela, com'è possibile vedere in figura \ref
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{Immagini/metal.png}
-    \caption{Accelerated GPU training and evaluation speedups over CPU-only. Fonte \cite{Metal}}
+    \caption{Accelerated GPU training and evaluation speedups over CPU-only.}
     \label{fig:metal}
 \end{figure}
-
-\input{Capitoli/PyTorch/mobile.tex}

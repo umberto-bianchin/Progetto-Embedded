@@ -2361,27 +2361,22 @@
     <bcf:datasource type="file" datatype="bibtex">bibliografia.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="5" intorder="1">NNAPI</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">NNAPI</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">NNAPI</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">NNAPI</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Pytorch</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Torch</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">PyTorchMed</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">PyTorchOfficial</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">XNNPACK</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">QNNPACK</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">PyTorchOfficial</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">PyTorchOfficial</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Quantizzazione</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">TracingVSScripting</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Ottimizzazione</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">Vulkan</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">Metal</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Metal</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Metal</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">tensorvspyt</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">pytorchvstensor</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">NNAPI</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Pytorch</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Torch</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">PyTorchMed</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">PyTorchOfficial</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">XNNPACK</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">QNNPACK</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">Quantizzazione</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">TracingVSScripting</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Ottimizzazione</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Vulkan</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Metal</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">tensorflow</bcf:citekey>
+    <bcf:citekey order="14" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">tensorvspyt</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">pytorchvstensor</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -20,12 +20,11 @@
 \contentsline {section}{\numberline {3.3}Da un modello PyTorch a PyTorch Mobile}{11}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Quantizzazione}{11}{subsection.3.3.1}%
 \contentsline {subsubsection}{Eager Mode Quantization}{12}{section*.8}%
-\contentsline {subsubsection}{FX Graph Mode Quantization}{12}{section*.9}%
+\contentsline {subsubsection}{FX Graph Mode Quantization}{13}{section*.9}%
 \contentsline {subsubsection}{PyTorch 2 Export Quantization}{13}{section*.10}%
-\contentsline {subsection}{\numberline {3.3.2}Scripting e Tracing del modello}{13}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Scripting e Tracing del modello}{14}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Ottimizzazione}{14}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}PyTorch Backend}{15}{section.3.4}%
-\contentsline {section}{\numberline {3.5}PyTorch Mobile per Android}{16}{section.3.5}%
+\contentsline {section}{\numberline {3.4}PyTorch Backend}{16}{section.3.4}%
 \contentsline {chapter}{\numberline {4}TensorFlow}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduzione}{17}{section.4.1}%
 \contentsline {section}{\numberline {4.2}TensorFlow Lite}{18}{section.4.2}%
@@ -39,11 +38,11 @@
 \contentsline {subsection}{\numberline {4.4.1}Scelta di un delegato}{25}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Tools per la valutazione}{27}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}TensorFlow Lite per Android}{27}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Ambiente di runtime}{28}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}API e librerie di sviluppo}{28}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}I tensori}{29}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Gestione dei dati in input}{30}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Gestione dei risultati in output}{30}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Approcci di sviluppo avanzati}{31}{section.4.9}%
+\contentsline {subsection}{\numberline {4.5.1}Ambiente di runtime}{28}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}API e librerie di sviluppo}{28}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}I tensori}{29}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Gestione dei dati in input}{30}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Gestione dei risultati in output}{30}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Approcci di sviluppo avanzati}{31}{section.4.8}%
 \contentsline {chapter}{\numberline {5}PyTorch Mobile vs TensorFlow Lite}{32}{chapter.5}%
 \contentsline {chapter}{Bibliografia}{34}{chapter*.19}%

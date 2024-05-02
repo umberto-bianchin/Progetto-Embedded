@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  2 MAY 2024 11:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  2 MAY 2024 12:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1170,7 +1170,7 @@ File: Immagini/operator coverage.png Graphic file (type bmp)
 <Immagini/operator coverage.png>
  [13]
 Underfull \hbox (badness 10000) in paragraph at lines 77--82
-\TU/TimesNewRoman(0)/m/n/12 Grazie alla funzionalità \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile\TU/TimesNewRoman(0)/m/n/12 [[]14[]] si
+\TU/TimesNewRoman(0)/m/n/12 Grazie alla funzionalità \TU/lmtt/m/n/12 torch.utils.mobile_optimizer.optimize_for_mobile\TU/TimesNewRoman(0)/m/n/12 [[]19[]] si
  []
 
 
@@ -1193,15 +1193,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--82
 \TU/lmtt/m/n/12 optimization_blocklist=None, preserved_methods=None, backend='CPU') \TU/TimesNewRoman(0)/m/n/12 esegue
  []
 
-
+[14]
 Underfull \hbox (badness 4621) in paragraph at lines 84--85
 []\TU/TimesNewRoman(0)/m/it/12 preserved_methods\TU/TimesNewRoman(0)/m/n/12 : lista di metodi che devono essere mantenuti quando si invoca
  []
 
-[14]) [15]
+) [15]
 File: Immagini/metal.png Graphic file (type bmp)
 <Immagini/metal.png>
- (./Capitoli/PyTorch/mobile.tex)) (./Capitoli/TensorFlow/tensorflow.tex [16]
+) (./Capitoli/TensorFlow/tensorflow.tex [16]
 Capitolo 4.
 File: Immagini/diagramma.png Graphic file (type bmp)
 <Immagini/diagramma.png>
@@ -1237,13 +1237,9 @@ File: Immagini/delegate_runtime.png Graphic file (type bmp)
 File: Immagini/accelerazione.png Graphic file (type bmp)
 <Immagini/accelerazione.png>
  [26]) (./Capitoli/TensorFlow/tensorflow_android.tex
-Underfull \hbox (badness 1253) in paragraph at lines 2--3
-\TU/TimesNewRoman(0)/m/n/12 TensorFlow Lite fornisce dispone di ambienti di esecuzione predefiniti e personalizzabili per
- []
-
 File: Immagini/esecuzione.png Graphic file (type bmp)
 <Immagini/esecuzione.png>
-[27] [28]
+ [27] [28]
 File: Immagini/tensore.png Graphic file (type bmp)
 <Immagini/tensore.png>
  [29] [30])) (./Capitoli/confronto.tex [31]
@@ -1251,7 +1247,7 @@ Capitolo 5.
 [32
 
 ]) [33]
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []\TU/TimesNewRoman(0)/m/n/12 Sujatha Mudadla. \TU/TimesNewRoman(0)/m/it/12 PyTorch Mobile\TU/TimesNewRoman(0)/m/n/12 . 2023. URL: []$[][][][][] [] [] [] [][][][][][] [] [][][] []
  []
 
@@ -1267,18 +1263,18 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 92B9B95FA34C863B74186F05BE8E05A5;7164.
+(rerunfilecheck)             Checksum: 9097EBD0D0DB9F2569B9BA8E31E69DCD;6977.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36985 strings out of 474779
- 760979 string characters out of 5758009
+ 36997 strings out of 474779
+ 761573 string characters out of 5758009
  1940839 words of memory out of 5000000
- 58543 multiletter control sequences out of 15000+600000
+ 58558 multiletter control sequences out of 15000+600000
  562525 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,11n,93p,910b,32892s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,910b,32891s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (39 pages).

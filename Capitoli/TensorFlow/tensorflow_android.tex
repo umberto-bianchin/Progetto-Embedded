@@ -1,5 +1,5 @@
 \section{TensorFlow Lite per Android}
-TensorFlow Lite fornisce dispone di ambienti di esecuzione predefiniti e personalizzabili per l’esecuzione rapida e efficiente di modelli Android, incluse le opzioni per l'accelerazione hardware.
+TensorFlow Lite dispone di ambienti di esecuzione predefiniti e personalizzabili per l’esecuzione rapida e efficiente di modelli Android, incluse le opzioni per l'accelerazione hardware.
 
 Come possiamo \textbf{eseguire un modello su Android}? Un modello TensorFlow Lite, all’interno di un’app Android, acquisisce ed elabora dati, generando una previsione basata sulla logica dello stesso modello.
 Per essere eseguito, il modello ha bisogno di uno specifico ambiente di runtime e i dati di ingresso devono essere nel formato speciale tensor. Quando il modello esegue un’inferenza, produce risultati di
@@ -8,7 +8,7 @@ previsione nel formato tensor e li consegna all’app Android che, a seconda deg
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.6\textwidth]{Immagini/esecuzione.png}
-    \caption{Schema di esecuzione di un modello in un app Android. Fonte }
+    \caption{Schema di esecuzione di un modello in un app Android.}
     \label{fig:esecuzione}
 \end{figure}
 
@@ -19,7 +19,7 @@ L’app, quindi, ha bisogno dei seguenti elementi per utilizzare un modello TF L
     \item Modellatore di output: per ricevere i tensor di output e interpretarli come risultati di previsione.
 \end{itemize}
 
-\section{Ambiente di runtime}
+\subsection{Ambiente di runtime}
 Per l’esecuzione di un modello TensorFlow Lite su un app android c’è bisogno di un ambiente di runtime il quale può essere abilitato nei seguenti modi:
 \begin{itemize}
     \item Google play services.
@@ -57,15 +57,15 @@ Al fine di creare un rete neurale, si utilizzano delle rappresentazioni grafiche
 di operazioni eseguite sui tensori. Il grafo è costituito da nodi che rappresentano i tensori e i dati memorizzati all’interno di essi e da nodi che rappresentano le operazioni su tali dati. I tensori si uniscono tra di loro
 per formare unità neurali più complesse, come il percettrone.
 
+Una rete neurale è costituita da innumerevoli percettroni, caratterizzando la complessità del mondo AI. Dopo questa brevissima introduzione dei tensori, torniamo a TensorFlow Lite che, come suggerisce il nome, sfrutta a pieno
+la struttura dati appena introdotta.
+
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.7\textwidth]{Immagini/tensore.png}
     \caption{Percettrone, esempio di un semplice grafo con tensori e operazioni}
     \label{fig:tensore}
 \end{figure}
-
-Una rete neurale è costituita da innumerevoli percettroni, caratterizzando la complessità del mondo AI. Dopo questa brevissima introduzione dei tensori, torniamo a TensorFlow Lite che, come suggerisce il nome, sfrutta a pieno
-la struttura dati appena introdotta.
 
 \newpage
 \section{Gestione dei dati in input}
