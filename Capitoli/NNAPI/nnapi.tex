@@ -1,43 +1,15 @@
 \bchapter{NNAPI}
-\section{Accelerazione Hardware}
-La caratteristica principale dell’uso di NNAPI\cite{NNAPI} è l’accelerazione hardware. In particolare, uno smartphone è sicuramente dotato di una unità di elaborazione
-centrale (CPU da ora in avanti), che esegue tutte le principali operazioni, sfruttando i registri, la cache, la ram ed eventuali storage. Grazie alla CPU
-si possono svolgere tutte le operazioni di I/O, gestione memoria, grafica, gestione batteria, errori e quant’altro.
-La CPU da sola, però, nella maggior parte dei casi non riesce a reggere quantità elevate di calcolo, in quanto si trova già occupata a svolgere operazioni
-base date dall’OS (Android nel nostro caso, ma anche iOS per esempio) e varie operazioni di I/O e memory. Proprio per questa sua limitazione, nella grande
-maggioranza degli smartphone moderni si trovano installati nella Motherboard anche altri componenti, in particolare una Scheda Video (GPU) ed eventualmente
-altri moduli quali Digital Signal Processor (DSP) e Neural Processing Unit (NPU). 
-Una scheda video, come suggerisce il nome, fornisce la potenza di calcolo necessaria a renderizzare ogni aspetto legato alla GUI dell’utente, ma non solo.
-Grazie alla sua elevata potenza infatti, può essere ampiamente sfruttata per tutte le operazioni che richiedono una grande quantità di dati da elaborare e
-lo stesso può essere detto per DSP. 
-
-Discorso a parte per le NPU: si tratta di un processore “complementare” adatto ad eseguire operazioni di calcolo prettamente incentrate sulle reti neurali.
-In ambienti mobile la prima comparsa è stata nel 2017, quindi relativamente recente, grazie alla presenza di una NPU sul chip kirin 970, presente nel Huawei
-Mate 10 pro.
-La sola integrazione di questo componente ha portato grandi vantaggi in termini di prestazioni e di efficienza energetica (si parla di un 50\% di efficienza
-energetica guadagnata rispetto alla gamma precedente), rendendolo di fatto importante per tutti i prodotti successivi. Grazie a questa novità da parte di
-Huawei, anche i vari competitors iniziarono a produrre, ricercare e sperimentare il più possibile per stare al passo con il mercato, rendendo di fatto le NPU,
-e il mondo dell’AI e delle reti neurali in generale, una realtà quotidiana presente su quasi ogni piccolo schermo.
-
-Tornando quindi all’accelerazione hardware, il punto cardine è la possibilità di sfruttare tutti gli altri componenti oltre alla CPU per eseguire complesse
-operazioni di calcolo e facilitare l’elaborazione di dati. 
-In tema reti neurali, si ottiene un guadagno sotto più punti di vista per quanto riguarda le operazioni di inferenza. Sicuramente si ottiene un incremento
-nella velocità di risposta, in quanto il carico di lavoro viene efficientemente distribuito tra le varie unità di calcolo disponibili, e una ridotta
-latenza generale, in quanto non c’è necessità di contattare un server esterno per richiedere dati.
-Grazie a ciò, non è nemmeno necessaria una connessione esterna, quale wifi o LTE, in quanto è possibile avere i dati salvati in locale, rendendoli di fatto
-sempre disponibili in qualsiasi situazione, a patto che ci sia batteria residua.
-La questione energetica è un argomento piuttosto delicato, perché unità di elaborazione come GPU e DSP sono molto dispendiose in termini di batteria e
-spesso si deve ricorrere a dei compromessi.
-Altro punto a sfavore, soprattutto per smartphone meno performanti, è la questione memoria: l’APK specifico potrebbe avere un peso di svariati GB e in
-esecuzione la RAM potrebbe facilmente risultare piena, rischiando così di portare il sistema in stati di rallentamento o crash.
-Un punto di forza riguarda sicuramente la privacy, in quanto i dati rimangono all’interno del dispositivo e non sono salvati su un cloud.
 
 \section{API Android Neural Networks}
-L’API Android Neural Networks è una API pensata per eseguire operazioni pesanti, in termini di calcolo computazionale, per il machine learning su
+Come accennato prima, Android 8.1 nel 2017 ha portato ottime novità lato neural networks. Con l’uscita di questa versione di sistema operativo, infatti,
+sono state incluse due API specifiche per semplificare l’utilizzo di dispositivi hardware per la gestione delle reti neurali, pensate per lo sviluppo a
+basso livello.
+
+L’API Android Neural Networks (da ora in poi NNAPI) è una API pensata per eseguire operazioni pesanti, in termini di calcolo computazionale, per il machine learning su
 dispositivi Android. Ha una compatibilità SW estremamente elevata, in quanto può essere utilizzata su ogni dispositivo con Android 8.1 (livello API 27) o successivo,
 coprendo quindi più del 90\% dei dispositivi android attualmente in uso.
 
-La NNAPI può essere sfruttata programmando in linguaggio C/C++ e usando librerie di sistema di livello superiore come "Runtime NNAPI”.
+Questa API può essere sfruttata programmando in linguaggio C/C++ e usando librerie di sistema di livello superiore come "Runtime NNAPI”.
 Runtime NNAPI è una libreria condivisa tra un’app e i driver back-end con la particolarità di essere aggiornabile, per ricevere aggiornamenti
 al di fuori del normale ciclo di rilascio di Android. Gli sviluppatori, quindi, possono correggere più facilmente bug presenti nel runtime e migliorarne
 le compatibilità con i driver.
@@ -90,4 +62,38 @@ i vari dati di input, forma il modello per la valutazione del runtime NNAPI. Ven
 \end{figure}
 
 \input{Capitoli/NNAPI/modello.tex}
+
+\section{Accelerazione Hardware}
+La caratteristica principale dell’uso di NNAPI\cite{NNAPI} è l’accelerazione hardware. In particolare, uno smartphone è sicuramente dotato di una unità di elaborazione
+centrale (CPU da ora in avanti), che esegue tutte le principali operazioni, sfruttando i registri, la cache, la ram ed eventuali storage. Grazie alla CPU
+si possono svolgere tutte le operazioni di I/O, gestione memoria, grafica, gestione batteria, errori e quant’altro.
+La CPU da sola, però, nella maggior parte dei casi non riesce a reggere quantità elevate di calcolo, in quanto si trova già occupata a svolgere operazioni
+base date dall’OS (Android nel nostro caso, ma anche iOS per esempio) e varie operazioni di I/O e memory. Proprio per questa sua limitazione, nella grande
+maggioranza degli smartphone moderni si trovano installati nella Motherboard anche altri componenti, in particolare una Scheda Video (GPU) ed eventualmente
+altri moduli quali Digital Signal Processor (DSP) e Neural Processing Unit (NPU). 
+Una scheda video, come suggerisce il nome, fornisce la potenza di calcolo necessaria a renderizzare ogni aspetto legato alla GUI dell’utente, ma non solo.
+Grazie alla sua elevata potenza infatti, può essere ampiamente sfruttata per tutte le operazioni che richiedono una grande quantità di dati da elaborare e
+lo stesso può essere detto per DSP. 
+
+Discorso a parte per le NPU: si tratta di un processore “complementare” adatto ad eseguire operazioni di calcolo prettamente incentrate sulle reti neurali.
+In ambienti mobile la prima comparsa è stata nel 2017, quindi relativamente recente, grazie alla presenza di una NPU sul chip kirin 970, presente nel Huawei
+Mate 10 pro.
+La sola integrazione di questo componente ha portato grandi vantaggi in termini di prestazioni e di efficienza energetica (si parla di un 50\% di efficienza
+energetica guadagnata rispetto alla gamma precedente), rendendolo di fatto importante per tutti i prodotti successivi. Grazie a questa novità da parte di
+Huawei, anche i vari competitors iniziarono a produrre, ricercare e sperimentare il più possibile per stare al passo con il mercato, rendendo di fatto le NPU,
+e il mondo dell’AI e delle reti neurali in generale, una realtà quotidiana presente su quasi ogni piccolo schermo.
+
+Tornando quindi all’accelerazione hardware, il punto cardine è la possibilità di sfruttare tutti gli altri componenti oltre alla CPU per eseguire complesse
+operazioni di calcolo e facilitare l’elaborazione di dati. 
+In tema reti neurali, si ottiene un guadagno sotto più punti di vista per quanto riguarda le operazioni di inferenza. Sicuramente si ottiene un incremento
+nella velocità di risposta, in quanto il carico di lavoro viene efficientemente distribuito tra le varie unità di calcolo disponibili, e una ridotta
+latenza generale, in quanto non c’è necessità di contattare un server esterno per richiedere dati.
+Grazie a ciò, non è nemmeno necessaria una connessione esterna, quale wifi o LTE, in quanto è possibile avere i dati salvati in locale, rendendoli di fatto
+sempre disponibili in qualsiasi situazione, a patto che ci sia batteria residua.
+La questione energetica è un argomento piuttosto delicato, perché unità di elaborazione come GPU e DSP sono molto dispendiose in termini di batteria e
+spesso si deve ricorrere a dei compromessi.
+Altro punto a sfavore, soprattutto per smartphone meno performanti, è la questione memoria: l’APK specifico potrebbe avere un peso di svariati GB e in
+esecuzione la RAM potrebbe facilmente risultare piena, rischiando così di portare il sistema in stati di rallentamento o crash.
+Un punto di forza riguarda sicuramente la privacy, in quanto i dati rimangono all’interno del dispositivo e non sono salvati su un cloud.
+
 

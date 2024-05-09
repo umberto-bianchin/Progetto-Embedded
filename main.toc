@@ -1,48 +1,47 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {chapter}{\numberline {1}Neural Newtorks}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Storia}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}NNAPI}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Accelerazione Hardware}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}API Android Neural Networks}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Modello}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Fasi operative}{6}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Compilation}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Esecuzione Sincrona VS Asincrona}{7}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Gestione errori}{7}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Memoria}{8}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Tempo di esecuzione}{8}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Log}{9}{subsection.2.5.1}%
-\contentsline {chapter}{\numberline {3}PyTorch Mobile}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}PyTorch \& PyTorch Mobile}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Caratteristiche Principali}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Da un modello PyTorch a PyTorch Mobile}{11}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Quantizzazione}{11}{subsection.3.3.1}%
-\contentsline {subsubsection}{Eager Mode Quantization}{12}{section*.8}%
-\contentsline {subsubsection}{FX Graph Mode Quantization}{13}{section*.9}%
-\contentsline {subsubsection}{PyTorch 2 Export Quantization}{13}{section*.10}%
-\contentsline {subsection}{\numberline {3.3.2}Scripting e Tracing del modello}{14}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Ottimizzazione}{14}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}PyTorch Backend}{16}{section.3.4}%
-\contentsline {chapter}{\numberline {4}TensorFlow}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduzione}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}TensorFlow Lite}{18}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Workflow di sviluppo}{19}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Generazione di un modello TensorFlow Lite}{19}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Ottimizzazione del modello}{22}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Eseguire l'inferenza}{23}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Task libraries di TensorFlow Lite}{23}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Support libraries di TensorFlow Lite}{24}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Miglioramento delle prestazioni: i delegati}{24}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Scelta di un delegato}{25}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Tools per la valutazione}{27}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}TensorFlow Lite per Android}{27}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Ambiente di runtime}{28}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}API e librerie di sviluppo}{28}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}I tensori}{29}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Gestione dei dati in input}{30}{subsection.4.5.4}%
-\contentsline {subsection}{\numberline {4.5.5}Gestione dei risultati in output}{30}{subsection.4.5.5}%
-\contentsline {subsection}{\numberline {4.5.6}Approcci di sviluppo avanzati}{30}{subsection.4.5.6}%
-\contentsline {chapter}{\numberline {5}PyTorch Mobile vs TensorFlow Lite}{32}{chapter.5}%
-\contentsline {chapter}{Bibliografia}{34}{chapter*.19}%
+\contentsline {chapter}{\numberline {1}Storia delle Neural Newtorks}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}NNAPI}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}API Android Neural Networks}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Modello}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Fasi operative}{6}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Compilation}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Esecuzione Sincrona VS Asincrona}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Gestione errori}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Memoria}{8}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Tempo di esecuzione}{8}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Log}{9}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Accelerazione Hardware}{9}{section.2.5}%
+\contentsline {chapter}{\numberline {3}PyTorch Mobile}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}PyTorch \& PyTorch Mobile}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Caratteristiche Principali}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Da un modello PyTorch a PyTorch Mobile}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Quantizzazione}{12}{subsection.3.3.1}%
+\contentsline {subsubsection}{Eager Mode Quantization}{13}{section*.8}%
+\contentsline {subsubsection}{FX Graph Mode Quantization}{14}{section*.9}%
+\contentsline {subsubsection}{PyTorch 2 Export Quantization}{14}{section*.10}%
+\contentsline {subsection}{\numberline {3.3.2}Scripting e Tracing del modello}{15}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Ottimizzazione}{15}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}PyTorch Backend}{17}{section.3.4}%
+\contentsline {chapter}{\numberline {4}TensorFlow}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduzione}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}TensorFlow Lite}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Workflow di sviluppo}{20}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Generazione di un modello TensorFlow Lite}{20}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Ottimizzazione del modello}{23}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Eseguire l'inferenza}{24}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Task libraries di TensorFlow Lite}{24}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Support libraries di TensorFlow Lite}{25}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Miglioramento delle prestazioni: i delegati}{25}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Scelta di un delegato}{26}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Tools per la valutazione}{28}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}TensorFlow Lite per Android}{28}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Ambiente di runtime}{29}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}API e librerie di sviluppo}{29}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}I tensori}{30}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Gestione dei dati in input}{31}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}Gestione dei risultati in output}{31}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}Approcci di sviluppo avanzati}{31}{subsection.4.5.6}%
+\contentsline {chapter}{\numberline {5}PyTorch Mobile vs TensorFlow Lite}{33}{chapter.5}%
+\contentsline {chapter}{Bibliografia}{35}{chapter*.19}%
