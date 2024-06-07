@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  9 MAY 2024 11:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  7 JUN 2024 10:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1231,35 +1231,69 @@ File: Immagini/tensore.png Graphic file (type bmp)
 Capitolo 5.
 [33
 
-]) [34]
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+]) (./Capitoli/App/ale.tex [34]
+Capitolo 6.
+File: Immagini/App/icona_app.jpg Graphic file (type bmp)
+<Immagini/App/icona_app.jpg>
+[35
+
+] [36]
+File: Immagini/App/home_chiaro.jpeg Graphic file (type bmp)
+<Immagini/App/home_chiaro.jpeg>
+File: Immagini/App/home_spinner_chiaro.jpeg Graphic file (type bmp)
+<Immagini/App/home_spinner_chiaro.jpeg>
+File: Immagini/App/info_chiaro.jpeg Graphic file (type bmp)
+<Immagini/App/info_chiaro.jpeg>
+File: Immagini/App/info_spinner_chiaro.jpeg Graphic file (type bmp)
+<Immagini/App/info_spinner_chiaro.jpeg>
+File: Immagini/App/login_scuro.jpeg Graphic file (type bmp)
+<Immagini/App/login_scuro.jpeg>
+File: Immagini/App/pw_dimenticata_scuro.jpeg Graphic file (type bmp)
+<Immagini/App/pw_dimenticata_scuro.jpeg>
+File: Immagini/App/info_scuro.jpeg Graphic file (type bmp)
+<Immagini/App/info_scuro.jpeg>
+File: Immagini/App/home_scuro.jpeg Graphic file (type bmp)
+<Immagini/App/home_scuro.jpeg>
+ [37]
+File: Immagini/App/login_orizzontale.jpeg Graphic file (type bmp)
+<Immagini/App/login_orizzontale.jpeg>
+File: Immagini/App/info_orizzontale.jpeg Graphic file (type bmp)
+<Immagini/App/info_orizzontale.jpeg>
+File: Immagini/App/funzionamento_3rettangoli.jpeg Graphic file (type bmp)
+<Immagini/App/funzionamento_3rettangoli.jpeg>
+File: Immagini/App/funzionamento_impostazioni.jpeg Graphic file (type bmp)
+<Immagini/App/funzionamento_impostazioni.jpeg>
+File: Immagini/App/funzionamento_4rettangoli.jpeg Graphic file (type bmp)
+<Immagini/App/funzionamento_4rettangoli.jpeg>
+) (./Capitoli/App/umbe.tex) (./Capitoli/App/andre.tex) [38] [39] [40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []\TU/TimesNewRoman(0)/m/n/12 Sujatha Mudadla. \TU/TimesNewRoman(0)/m/it/12 PyTorch Mobile\TU/TimesNewRoman(0)/m/n/12 . 2023. URL: []$[][][][][] [] [] [] [][][][][][] [] [][][] []
  []
 
-[35
+[42
 
 ] (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) [36] (./main.aux)
+) [43] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FC1F27514E803D0EA5D1C02439602925;6984.
+(rerunfilecheck)             Checksum: 90303E203CB5E2391C601F517167D872;7821.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36990 strings out of 474779
- 761317 string characters out of 5758009
+ 37148 strings out of 474779
+ 766673 string characters out of 5758009
  1939839 words of memory out of 5000000
- 58551 multiletter control sequences out of 15000+600000
+ 58682 multiletter control sequences out of 15000+600000
  562525 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,11n,93p,910b,32892s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (40 pages).
+Output written on main.pdf (47 pages).

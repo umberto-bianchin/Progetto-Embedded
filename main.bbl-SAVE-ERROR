@@ -45,6 +45,18 @@
       \verb https://paulbridger.com/posts/mastering-torchscript/
       \endverb
     \endentry
+    \entry{tensorflow}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{title}{Deploy machine learning models on mobile and edge devices}
+      \verb{urlraw}
+      \verb https://www.tensorflow.org/lite
+      \endverb
+      \verb{url}
+      \verb https://www.tensorflow.org/lite
+      \endverb
+    \endentry
     \entry{NNAPI}{online}{}
       \name{author}{1}{}{%
         {{hash=d242a862c3becd11c3eab68c129ae4a8}{%
@@ -164,6 +176,33 @@
       \verb https://engineering.fb.com/2018/10/29/ml-applications/qnnpack/
       \endverb
     \endentry
+    \entry{pytorchvstensor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=36dbc96e1f0e32610a74f493dc871e9e}{%
+           family={Mohammadi},
+           familyi={M\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{36dbc96e1f0e32610a74f493dc871e9e}
+      \strng{fullhash}{36dbc96e1f0e32610a74f493dc871e9e}
+      \strng{bibnamehash}{36dbc96e1f0e32610a74f493dc871e9e}
+      \strng{authorbibnamehash}{36dbc96e1f0e32610a74f493dc871e9e}
+      \strng{authornamehash}{36dbc96e1f0e32610a74f493dc871e9e}
+      \strng{authorfullhash}{36dbc96e1f0e32610a74f493dc871e9e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PyTorch vs. TensorFlow for Mobile Machine Learning Applications}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/pulse/pytorch-vs-tensorflow-mobile-machine-learning-mustafa-mohammadi-b8a1c
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/pytorch-vs-tensorflow-mobile-machine-learning-mustafa-mohammadi-b8a1c
+      \endverb
+    \endentry
     \entry{PyTorchMed}{online}{}
       \name{author}{1}{}{%
         {{hash=890dc061c816b073c7725862df4bab45}{%
@@ -189,6 +228,60 @@
       \endverb
       \verb{url}
       \verb https://medium.com/@sujathamudadla1213/pytorch-mobile-a5dc9cabe511
+      \endverb
+    \endentry
+    \entry{bladnreaprovino}{online}{}
+      \name{author}{1}{}{%
+        {{hash=81b1067ae0133bf5af53b5bf0b0330f5}{%
+           family={Provino},
+           familyi={P\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{81b1067ae0133bf5af53b5bf0b0330f5}
+      \strng{fullhash}{81b1067ae0133bf5af53b5bf0b0330f5}
+      \strng{bibnamehash}{81b1067ae0133bf5af53b5bf0b0330f5}
+      \strng{authorbibnamehash}{81b1067ae0133bf5af53b5bf0b0330f5}
+      \strng{authornamehash}{81b1067ae0133bf5af53b5bf0b0330f5}
+      \strng{authorfullhash}{81b1067ae0133bf5af53b5bf0b0330f5}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tensorflow Guida Italiano: primi passi con Tensorflow}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.andreaprovino.it/tensorflow-guida-italiano-primi-passi-con-tensorflow
+      \endverb
+      \verb{url}
+      \verb https://www.andreaprovino.it/tensorflow-guida-italiano-primi-passi-con-tensorflow
+      \endverb
+    \endentry
+    \entry{tensorvspyt}{online}{}
+      \name{author}{1}{}{%
+        {{hash=23d049d9a65a3e500b11f4459d1a1eb3}{%
+           family={Puy},
+           familyi={P\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{23d049d9a65a3e500b11f4459d1a1eb3}
+      \strng{fullhash}{23d049d9a65a3e500b11f4459d1a1eb3}
+      \strng{bibnamehash}{23d049d9a65a3e500b11f4459d1a1eb3}
+      \strng{authorbibnamehash}{23d049d9a65a3e500b11f4459d1a1eb3}
+      \strng{authornamehash}{23d049d9a65a3e500b11f4459d1a1eb3}
+      \strng{authorfullhash}{23d049d9a65a3e500b11f4459d1a1eb3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TensorFlow Lite vs PyTorch Mobile for On-Device Machine Learning}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://proandroiddev.com/tensorflow-lite-vs-pytorch-mobile-for-on-device-machine-learning-1b214d13635f
+      \endverb
+      \verb{url}
+      \verb https://proandroiddev.com/tensorflow-lite-vs-pytorch-mobile-for-on-device-machine-learning-1b214d13635f
       \endverb
     \endentry
     \entry{PyTorchOfficial}{online}{}
@@ -225,6 +318,30 @@
       \endverb
       \verb{url}
       \verb https://pytorch.org/docs/stable/quantization.html
+      \endverb
+    \endentry
+    \entry{databricks}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{TensorFlow}
+      \verb{urlraw}
+      \verb https://www.databricks.com/it/glossary/tensorflow-guide
+      \endverb
+      \verb{url}
+      \verb https://www.databricks.com/it/glossary/tensorflow-guide
+      \endverb
+    \endentry
+    \entry{egovaleo}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{TensorFlow: cos’è e a cosa serve}
+      \verb{urlraw}
+      \verb https://www.egovaleo.it/geek-lab/tensorflow-cose-e-a-cosa-serve/
+      \endverb
+      \verb{url}
+      \verb https://www.egovaleo.it/geek-lab/tensorflow-cose-e-a-cosa-serve/
       \endverb
     \endentry
     \entry{Torch}{online}{}
