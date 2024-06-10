@@ -3,29 +3,29 @@
 \babel@toc {italian}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Architettura di sistema per l'API Android Neural Networks.}}{4}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Flusso di programmazione per l'API Android Neural Networks.}}{5}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Esempio di operandi per un modello NNAPI}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architettura di sistema per l'API Android Neural Networks.}}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Flusso di programmazione per l'API Android Neural Networks.}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Esempio di operandi per un modello NNAPI}}{6}{figure.caption.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Workflow dal training al rilascio di un modello su piattaforma mobile.}}{13}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Operatori compatibili con i due diversi tipi di quantizzazione}}{15}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Accelerated GPU training and evaluation speedups over CPU-only.}}{17}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Workflow dal training al rilascio di un modello su piattaforma mobile.}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Operatori compatibili con i due diversi tipi di quantizzazione}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Accelerated GPU training and evaluation speedups over CPU-only.}}{17}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramma dei punteggi di utilizzo di vari framework nel 2018}}{19}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Workflow di conversione di TensorFlow Lite}}{22}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Distinzione tra kernel CPU e i delegati.}}{26}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Schema riassuntivo del funzionamento del servizio di accelerazione}}{27}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Schema di esecuzione di un modello in un app Android.}}{28}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Percettrone, esempio di un semplice grafo con tensori e operazioni}}{30}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramma dei punteggi di utilizzo di vari framework nel 2018}}{19}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Workflow di conversione di TensorFlow Lite}}{22}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Distinzione tra kernel CPU e i delegati.}}{26}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Schema riassuntivo del funzionamento del servizio di accelerazione}}{27}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schema di esecuzione di un modello in un app Android.}}{28}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Percettrone, esempio di un semplice grafo con tensori e operazioni}}{30}{figure.caption.19}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Logo dell’app}}{35}{figure.caption.19}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Schermata home e apertura dello spinner.}}{36}{figure.caption.20}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Schermata info e apertura dello spinner.}}{37}{figure.caption.21}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Schermate di login con tema DARK.}}{38}{figure.caption.22}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Schermate Info e Home con tema DARK.}}{38}{figure.caption.23}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Schermata di autenticazione con orientamento orizzontale}}{39}{figure.caption.24}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Schermata info con orientamento orizzontale}}{39}{figure.caption.25}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Esempio di utilizzo del modello e delle sue impostazioni.}}{40}{figure.caption.26}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Esempio di utilizzo del modello con 4 rettangoli.}}{41}{figure.caption.27}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces I/O del modello}}{44}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Logo dell’app}}{35}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Schermata home e apertura dello spinner.}}{36}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Schermata info e apertura dello spinner.}}{37}{figure.caption.22}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Schermate di login con tema DARK.}}{38}{figure.caption.23}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Schermate Info e Home con tema DARK.}}{38}{figure.caption.24}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Schermata di autenticazione con orientamento orizzontale}}{39}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Schermata info con orientamento orizzontale}}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Esempio di utilizzo del modello e delle sue impostazioni.}}{40}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Esempio di utilizzo del modello con 4 rettangoli.}}{41}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces I/O del modello}}{45}{figure.caption.31}%

@@ -227,7 +227,8 @@ dell'applicazione. I delegati disponibili includono CPU, GPU e NNAPI (Android Ne
 per il dispositivo in uso.
 È importante sottolineare che l'applicazione è progettata per gestire eventuali errori o incompatibilità durante l'utilizzo dei diversi delegati per
 l'esecuzione del modello. Se il delegato selezionato non è supportato sul dispositivo in uso, verrà visualizzato un messaggio di errore, ma l'applicazione
-continuerà a funzionare senza interruzioni. Questo garantisce un'esperienza utente fluida e affidabile anche in condizioni non ideali.
+continuerà a funzionare senza interruzioni. In particolare, la scelta di un delegato non utilizzabile, comporta il ripristino dopo circa un secondo del
+delegato base, ovvero CPU. Questo garantisce un'esperienza utente fluida e affidabile anche in condizioni non ideali.
 
 Inoltre, nell'interfaccia utente della fotocamera, è presente un overlay fisso che mostra i risultati del rilevamento degli oggetti. Questi risultati sono
 rappresentati da rettangoli posizionati sull'immagine in base alla posizione degli oggetti rilevati. Ogni rettangolo è accompagnato da informazioni sulla
@@ -247,6 +248,10 @@ Per garantire una forte user experience è stato adottato un controllo sui risul
 rimangono intatti come numero e come classi ottenute, allora la visualizzazione viene modificata solo ogni secondo. Nel momento in cui è presente una classe
 in più o in meno o ci sono differenze, viene aggiornata la visione. Questo permette di non vedere troppe informazioni in continua modifica a schermo. Il
 tutto è realizzato tramite l’utilizzo di un timer non bloccante e un semplice controllo in retroazione.
+
+Infine, per aumentare l’accessibilità dell’applicazione, è stata aggiunta un’icona di volume on/off nella parte alta della toolbar durante l’utilizzo
+della fotocamera. Premendo il pulsante è possibile attivare o disattivare il TextToSpeech che dà informazioni sugli oggetti trovati e il relativo
+punteggio. Si tratta sia di un miglioramento a livello UX, sia un miglioramento tecnico dell’applicazione, per poter aumentare la sua utilità.
 
 In figura \ref{fig:modello} si può vedere l’immagine che descrive I/O del modello.
 
