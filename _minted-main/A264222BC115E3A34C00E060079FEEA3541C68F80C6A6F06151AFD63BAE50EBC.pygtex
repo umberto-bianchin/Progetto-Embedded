@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{tensorflow} \PYG{k}{as} \PYG{n+nn}{tf}
+
+\PYG{c+c1}{\PYGZsh{} Carico il modello TensorFlow (Keras)}
+\PYG{n}{model} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{keras}\PYG{o}{.}\PYG{n}{models}\PYG{o}{.}\PYG{n}{load\PYGZus{}model}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}modello.h5\PYGZsq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Creo un\PYGZsq{}istanza di TFLiteConverter}
+\PYG{n}{converter} \PYG{o}{=} \PYG{n}{tf}\PYG{o}{.}\PYG{n}{lite}\PYG{o}{.}\PYG{n}{TFLiteConverter}\PYG{o}{.}\PYG{n}{from\PYGZus{}keras\PYGZus{}model}\PYG{p}{(}\PYG{n}{model}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Converto il modello}
+\PYG{n}{tflite\PYGZus{}model} \PYG{o}{=} \PYG{n}{converter}\PYG{o}{.}\PYG{n}{convert}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{} Salvo il modello convertito}
+\PYG{k}{with} \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}modello.tflite\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}wb\PYGZsq{}}\PYG{p}{)} \PYG{k}{as} \PYG{n}{f}\PYG{p}{:}
+    \PYG{n}{f}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{tflite\PYGZus{}model}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Abilitare la quantizzazione}
+\PYG{n}{converter}\PYG{o}{.}\PYG{n}{optimizations} \PYG{o}{=} \PYG{p}{[}\PYG{n}{tf}\PYG{o}{.}\PYG{n}{lite}\PYG{o}{.}\PYG{n}{Optimize}\PYG{o}{.}\PYG{n}{DEFAULT}\PYG{p}{]}
+
+\PYG{c+c1}{\PYGZsh{} Convertire il modello con quantizzazione}
+\PYG{n}{tflite\PYGZus{}quantized\PYGZus{}model} \PYG{o}{=} \PYG{n}{converter}\PYG{o}{.}\PYG{n}{convert}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{} Salvare il modello quantizzato}
+\PYG{k}{with} \PYG{n+nb}{open}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}modello\PYGZus{}quantizzato.tflite\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}wb\PYGZsq{}}\PYG{p}{)} \PYG{k}{as} \PYG{n}{f}\PYG{p}{:}
+    \PYG{n}{f}\PYG{o}{.}\PYG{n}{write}\PYG{p}{(}\PYG{n}{tflite\PYGZus{}quantized\PYGZus{}model}\PYG{p}{)}
+\end{Verbatim}

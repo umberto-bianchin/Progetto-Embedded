@@ -1,0 +1,56 @@
+\bchapter{Autenticazione e conversione del modello}
+\section{Autenticazione}
+L'autenticazione della nostra applicazione è stata gestita tramite Firebase Authentication\footnote{https://firebase.google.com/docs/auth?hl=it}, che
+offre una soluzione robusta e sicura per la gestione degli utenti. Grazie a Firebase Authentication, gli utenti possono registrarsi, effettuare il login
+e recuperare la password in modo semplice e intuitivo. Il processo di integrazione di Firebase Authentication nella nostra applicazione è stato facilitato
+dalla disponibilità di SDK e API ben documentati, che hanno permesso di implementare le funzionalità di autenticazione in modo rapido ed efficiente.
+
+
+\section{Conversione modello TensorFlow a TensorFlow Lite}
+Sebbene per questa applicazione sia stato utilizzato un modello TensorFlow già in versione Lite, vogliamo comunque spiegare come TensorFlow offre una
+soluzione leggera e veloce per l'esecuzione di modelli di machine learning su dispositivi con risorse limitate. Una volta che si dispone di un modello
+addestrato (solitamente in formato ".h5"), è necessario installare la libreria di TensorFlow nel proprio ambiente Python. Dopo di che, con un semplice 
+script (codice \ref{code:1}) è possibile convertire il modello in formato ".tflite":
+
+\begin{code}
+\begin{minted}[linenos]{python}
+import tensorflow as tf
+    
+# Carico il modello TensorFlow (Keras)
+model = tf.keras.models.load_model('modello.h5')
+
+# Creo un'istanza di TFLiteConverter
+converter = tf.lite.TFLiteConverter.from_keras_model(model)
+
+# Converto il modello
+tflite_model = converter.convert()
+
+# Salvo il modello convertito
+with open('modello.tflite', 'wb') as f:
+    f.write(tflite_model)
+\end{minted}
+\caption{Script per conversione modello TensorFlow}
+\label{code:1}
+\end{code}
+\bigskip
+
+Una volta effettuata la conversione, è possibile ottimizzare il modello attraverso la quantizzazione (codice \ref{code:2}) o il pruning:
+
+\begin{code}
+\begin{minted}[linenos]{python}
+# Abilitare la quantizzazione
+converter.optimizations = [tf.lite.Optimize.DEFAULT]
+
+# Convertire il modello con quantizzazione
+tflite_quantized_model = converter.convert()
+
+# Salvare il modello quantizzato
+with open('modello_quantizzato.tflite', 'wb') as f:
+    f.write(tflite_quantized_model)
+\end{minted}
+\caption{Script per quantizzazione del modello}
+\label{code:2}
+\end{code}
+
+
+   

@@ -39,6 +39,7 @@
         "Quantizer",
         "relu",
         "Systrace",
+        "tflite",
         "vlog",
         "Vulkan",
         "XNNPACK"
