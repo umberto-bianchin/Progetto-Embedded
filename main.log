@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  10 JUN 2024 14:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.5)  10 JUN 2024 15:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1273,12 +1273,12 @@ File: Immagini/App/login_orizzontale.jpeg Graphic file (type bmp)
 File: Immagini/App/info_orizzontale.jpeg Graphic file (type bmp)
 <Immagini/App/info_orizzontale.jpeg>
  [39]
-File: Immagini/App/funzionamento_3rettangoli.jpeg Graphic file (type bmp)
-<Immagini/App/funzionamento_3rettangoli.jpeg>
-File: Immagini/App/funzionamento_impostazioni.jpeg Graphic file (type bmp)
-<Immagini/App/funzionamento_impostazioni.jpeg>
-File: Immagini/App/funzionamento_4rettangoli.jpeg Graphic file (type bmp)
-<Immagini/App/funzionamento_4rettangoli.jpeg>
+File: Immagini/App/funzionamento_3rettangoli.png Graphic file (type bmp)
+<Immagini/App/funzionamento_3rettangoli.png>
+File: Immagini/App/funzionamento_impostazioni.png Graphic file (type bmp)
+<Immagini/App/funzionamento_impostazioni.png>
+File: Immagini/App/funzionamento_4rettangoli.png Graphic file (type bmp)
+<Immagini/App/funzionamento_4rettangoli.png>
  [40] [41]
 \openout3 = `main.pyg'.
 
@@ -1318,7 +1318,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  37348 strings out of 474779
- 770459 string characters out of 5758009
+ 770441 string characters out of 5758009
  1939839 words of memory out of 5000000
  58868 multiletter control sequences out of 15000+600000
  562541 words of font info for 82 fonts, out of 8000000 for 9000
